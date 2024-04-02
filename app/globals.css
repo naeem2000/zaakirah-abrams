@@ -5,3 +5,82 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* HERO START */
+section.hero {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background: linear-gradient(113.04deg, #CF81FF 3.08%, #31B5FF 107.42%);
+  padding: 370px 117px;
+}
+
+section.hero h1 {
+  font-family: "Tiro Tamil", serif;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 100px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  max-width: 1205px;
+}
+
+/* HERO END */
+
+/* GALLERY START */
+section.gallery .top-gal {
+  display: grid;
+  grid-template-columns: 33.3333333333% 33.3333333333% 33.3333333333%;
+}
+
+section.gallery img {
+  width: 100%;
+  height: 100%;
+}
+
+section.gallery .bot-gal {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+/* GALLERY END */
+
+/* GET IN TOUCH START */
+section.get-in-touch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: rgba(223, 167, 165, 0.31);
+  padding-top: 184px;
+  padding-bottom: 135px;
+}
+
+section.get-in-touch h2 {
+  font-family: "Tiro Tamil", serif;
+  font-size: 96px;
+  font-weight: 400;
+  line-height: 100px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+section.get-in-touch p {
+  font-family: "Tiro Tamil", serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 70px;
+  letter-spacing: 0.01em;
+  text-align: center;
+}
+
+section.get-in-touch p span {
+  text-decoration: underline;
+}
+
+/* GET IN TOUCH END */
+
+footer {
+  background: #000000;
+}

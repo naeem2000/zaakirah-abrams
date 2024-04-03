@@ -33,19 +33,54 @@ section.hero h1 {
 /* HERO END */
 
 /* GALLERY START */
-section.gallery .top-gal {
-  display: grid;
-  grid-template-columns: 33.3333333333% 33.3333333333% 33.3333333333%;
-}
-
-section.gallery img {
-  width: 100%;
-  height: 100%;
-}
-
+section.gallery .top-gal,
 section.gallery .bot-gal {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.img-container {
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
+
+.img-container .overlay {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background: rgba(196, 196, 196, 1);
+  padding: 30px;
+}
+
+.img-container .overlay p {
+  font-family: "Tiro Tamil", serif;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 70px;
+  letter-spacing: 0.01em;
+}
+
+.img-container .overlay p:last-child {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.01em;
+}
+
+.img-container:hover .overlay {
+  opacity: 1;
 }
 
 /* GALLERY END */
@@ -86,6 +121,7 @@ section.get-in-touch p span {
 
 /* GET IN TOUCH END */
 
+/* FOOTER START */
 footer {
   background: #000000;
   padding: 60px 0px 111px;
@@ -99,6 +135,12 @@ footer .footer-body {
   border-right: none;
   color: white;
   padding: 55px 238px 70px 91px;
+}
+
+footer .footer-body .footer-left {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
 }
 
 footer .footer-body .footer-left p {
@@ -153,4 +195,105 @@ footer .footer-body .footer-right a {
   line-height: 33px;
   letter-spacing: 0.01em;
   margin-bottom: 18px;
+}
+
+/* FOOTER END */
+
+@media screen and (max-width: 1024px) {
+  footer .footer-body {
+    padding: 20px;
+  }
+
+  footer .footer-body .footer-right div:first-child {
+    margin-right: 150px;
+  }
+
+  footer .footer-body .footer-right div:last-child {
+    margin-right: 50px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  section.hero {
+    padding: 270px 117px;
+  }
+
+  section.gallery .top-gal,
+  section.gallery .bot-gal {
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+  }
+
+  footer .footer-body .footer-right div:first-child {
+    margin-right: 70px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  section.hero {
+    padding: 50px 20px;
+  }
+
+  section.hero h1 {
+    font-size: 35px;
+    line-height: 70px;
+    letter-spacing: 0.01em;
+  }
+
+  .img-container {
+    height: 300px;
+  }
+
+  section.get-in-touch {
+    padding: 50px 20px;
+  }
+
+  section.get-in-touch h2 {
+    font-size: 40px;
+    line-height: 80px;
+  }
+
+  section.get-in-touch p {
+    font-size: 30px;
+    line-height: 50px;
+    letter-spacing: 0.01em;
+  }
+
+  footer .footer-body {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  footer .footer-body .footer-left {
+    display: block;
+  }
+
+  footer .footer-body .footer-right {
+    margin-top: 50px;
+    justify-content: space-between;
+    margin-right: 50px;
+  }
+
+  footer .footer-body .footer-right div:first-child {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  footer .footer-body .footer-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  footer .footer-body .footer-right {
+    flex-direction: column;
+  }
+
+  footer .footer-body .footer-left a {
+    padding: 10px 0px;
+    width: 100%;
+  }
 }

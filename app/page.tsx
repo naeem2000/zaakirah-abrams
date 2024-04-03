@@ -1,7 +1,15 @@
+import Footer from './components/Footer';
+import Gallery from './components/Gallery';
+import Hero from './components/Hero';
+import Touch from './components/Touch';
+
 export default function Home() {
 	return (
-		<main>
-			<p>awe</p>
-		</main>
+		<>
+			<Hero />
+			<Gallery />
+			<Touch />
+			<Footer />
+		</>
 	);
 }

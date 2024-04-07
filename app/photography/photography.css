@@ -1,0 +1,282 @@
+.photo .photo-head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: url('/photo-head.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 13px;
+    padding: 80px 0px 200px;
+}
+
+.photo .photo-head h1 {
+    font-family: "Quicksand", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0.4em;
+    color: var(--white);
+    text-transform: uppercase;
+}
+
+.photo .photo-by {
+    background: url('/photography-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 236px 0px 213px;
+}
+
+.photo .photo-by h2 {
+    font-family: "Quicksand", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 55px;
+    letter-spacing: 0.05em;
+    color: var(--white);
+    text-transform: uppercase;
+}
+
+.photo .photo-by p {
+    font-family: "Quicksand", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    margin-top: 30px;
+    color: var(--white);
+    text-transform: uppercase;
+}
+
+.photo .photo-by a {
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    margin-top: 52px;
+    border: 1px solid #FFFFFF;
+    color: var(--white);
+    padding: 12px 25px;
+}
+
+.photo .gallery div:first-child {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    place-content: center;
+}
+
+.photo .gallery div:not(:first-child) {
+    display: grid;
+    margin-top: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    place-content: center;
+    margin-bottom: 10px;
+}
+
+.photo .mid-gal {
+    background: url('/photograph-background2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 235px 0px 170px;
+}
+
+.photo .mid-gal h2 {
+    font-family: "Quicksand", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 55px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: var(--white);
+}
+
+.photo .mid-gal p {
+    font-family: "Quicksand", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: var(--white);
+    margin-top: 37px;
+}
+
+.photo .mid-gal-photo {
+    display: grid;
+    margin-top: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    place-content: center;
+    margin-bottom: 10px;
+}
+
+.photo .bot-gal {
+    padding: 77px 0px 102px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.photo .bot-gal h2 {
+    text-transform: uppercase;
+    font-family: "Quicksand", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.05em;
+    text-align: center;
+}
+
+.photo .bot-gal p {
+    margin-top: 10px;
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.05em;
+    text-align: center;
+}
+
+.photo .bot-row {
+    display: grid;
+    margin-top: 40px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    place-content: center;
+}
+
+.photo .bot-gal a {
+    margin-top: 50px;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    border: 1px solid var(--black);
+    padding: 12px;
+}
+
+@media screen and (max-width: 1280px) {
+    .photo .gallery div:first-child {
+        grid-template-columns: repeat(1, 1fr);
+        place-items: center;
+    }
+
+    .photo .gallery div:first-child img {
+        width: 100%;
+        height: auto;
+    }
+
+    .photo .gallery {
+        padding: 20px;
+    }
+
+    .photo .gallery div:not(:first-child) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .photo .gallery div:not(:first-child) img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .photo .mid-gal-photo {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 20px;
+    }
+
+    .photo .mid-gal-photo img {
+        width: 100%;
+        height: auto;
+    }
+
+    .photo .bot-row {
+        grid-template-columns: repeat(1, 1fr);
+        place-items: center;
+        padding: 20px;
+    }
+
+    .photo .bot-row img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .photo .photo-head {
+        background-position-x: -200px;
+    }
+
+    .photo .photo-head img {
+        width: 100%;
+        height: auto;
+    }
+
+    .photo .photo-head h1 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .photo .photo-by {
+        padding-left: 20px;
+        padding-right: 20px;
+        background-position-x: -600px;
+    }
+
+    .photo .photo-by h2 {
+        font-size: 25px;
+    }
+
+    .photo .photo-by p {
+        font-size: 15px;
+    }
+
+    .photo .photo-by a {
+        font-size: 13px;
+    }
+
+    .photo .mid-gal {
+        background-position-x: -800px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .photo .mid-gal h2 {
+        font-size: 25px;
+    }
+
+    .photo .mid-gal p {
+        font-size: 15px;
+    }
+
+    .photo .bot-gal {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .photo .bot-gal h2 {
+        font-size: 25px;
+    }
+
+    .photo .bot-gal p {
+        font-size: 15px;
+    }
+
+    .photo .bot-gal a {
+        font-size: 13px;
+    }
+}

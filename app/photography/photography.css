@@ -7,7 +7,11 @@
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 13px;
-    padding: 80px 0px 200px;
+    padding: 135px 0px 200px;
+}
+
+.photo .photo-head img {
+    margin-bottom: 120px;
 }
 
 .photo .photo-head h1 {
@@ -24,6 +28,7 @@
     background: url('/photography-background.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     margin-bottom: 13px;
     display: flex;
     align-items: center;
@@ -88,6 +93,7 @@
     background: url('/photograph-background2.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     background-position: center;
     padding: 235px 0px 170px;
 }
@@ -222,8 +228,9 @@
     }
 
     .photo .photo-head img {
-        width: 100%;
+        width: 40%;
         height: auto;
+        margin-bottom: 35px;
     }
 
     .photo .photo-head h1 {
@@ -234,7 +241,7 @@
     .photo .photo-by {
         padding-left: 20px;
         padding-right: 20px;
-        background-position-x: -600px;
+        background-position-x: -550px;
     }
 
     .photo .photo-by h2 {

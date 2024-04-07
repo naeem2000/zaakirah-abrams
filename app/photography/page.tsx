@@ -7,7 +7,7 @@ export default function page() {
 	return (
 		<section className='photo'>
 			<div className='photo-head'>
-				<Image src={'/camera-lens.png'} width={300} height={300} alt='lens' />
+				<Image src={'/camera-lens.png'} width={228} height={228} alt='lens' />
 				<h1>Explore My Hobby</h1>
 			</div>
 			<div className='photo-by'>
@@ -20,19 +20,19 @@ export default function page() {
 					<Image
 						src='/photography-gallery/1.png'
 						alt='1'
-						width={600}
+						width={500}
 						height={400}
 					/>
 					<Image
 						src='/photography-gallery/2.png'
 						alt='2'
-						width={600}
+						width={500}
 						height={400}
 					/>
 					<Image
 						src='/photography-gallery/3.png'
 						alt='3'
-						width={600}
+						width={500}
 						height={400}
 					/>
 				</div>
@@ -40,26 +40,26 @@ export default function page() {
 					<Image
 						src='/photography-gallery/4.png'
 						alt='4'
-						width={450}
-						height={650}
+						width={370}
+						height={550}
 					/>
 					<Image
 						src='/photography-gallery/5.png'
 						alt='5'
-						width={450}
-						height={650}
+						width={370}
+						height={550}
 					/>
 					<Image
 						src='/photography-gallery/6.png'
 						alt='6'
-						width={450}
-						height={650}
+						width={370}
+						height={550}
 					/>
 					<Image
 						src='/photography-gallery/7.png'
 						alt='7'
-						width={450}
-						height={650}
+						width={370}
+						height={550}
 					/>
 				</div>
 			</div>
@@ -71,26 +71,26 @@ export default function page() {
 				<Image
 					src='/photography-gallery/8.png'
 					alt='8'
-					width={450}
-					height={650}
+					width={400}
+					height={600}
 				/>
 				<Image
 					src='/photography-gallery/9.png'
 					alt='9'
-					width={450}
-					height={650}
+					width={400}
+					height={600}
 				/>
 				<Image
 					src='/photography-gallery/10.png'
 					alt='10'
-					width={450}
-					height={650}
+					width={400}
+					height={600}
 				/>
 				<Image
 					src='/photography-gallery/11.png'
 					alt='11'
-					width={450}
-					height={650}
+					width={400}
+					height={600}
 				/>
 			</div>
 			<div className='bot-gal'>
@@ -103,20 +103,20 @@ export default function page() {
 					<Image
 						src='/photography-gallery/12.png'
 						alt='12'
-						width={600}
-						height={400}
+						width={500}
+						height={350}
 					/>
 					<Image
 						src='/photography-gallery/13.png'
 						alt='13'
-						width={600}
-						height={400}
+						width={500}
+						height={350}
 					/>
 					<Image
 						src='/photography-gallery/14.png'
 						alt='14'
-						width={600}
-						height={400}
+						width={500}
+						height={350}
 					/>
 				</div>
 				<a href=''>CHECK OUT THEIR INSTAGRAM</a>

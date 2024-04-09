@@ -2,10 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tiro+Tamil:ital@0;1&display=swap');
 /* Quicksand */
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+/* Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
   --white: #FFFFFF;
   --black: #000000;
+  --brown: #DF966E;
+  --custom-grey: #E5E5E5;
+  --off-white: #F1F1F1;
 }
 
 * {
@@ -21,7 +26,7 @@ a {
 }
 
 .max-width {
-  max-width: 1200px;
+  max-width: 1920px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -33,7 +38,8 @@ section.hero {
   align-items: center;
   justify-content: flex-start;
   background: linear-gradient(113.04deg, #CF81FF 3.08%, #31B5FF 107.42%);
-  padding: 370px 117px;
+  padding-left: 117px;
+  height: 100vh;
 }
 
 section.hero h1 {
@@ -144,11 +150,14 @@ footer {
 }
 
 footer .footer-body {
-  display: flex;
-  justify-content: space-between;
   border: 5px solid #FFFFFF;
   border-left: none;
   border-right: none;
+}
+
+footer .footer-body .max-width {
+  display: flex;
+  justify-content: space-between;
   color: white;
   padding: 55px 238px 70px 91px;
 }
@@ -216,7 +225,7 @@ footer .footer-body .footer-right a {
 /* FOOTER END */
 
 @media screen and (max-width: 1024px) {
-  footer .footer-body {
+  footer .footer-body .max-width {
     padding: 20px;
   }
 
@@ -274,7 +283,7 @@ footer .footer-body .footer-right a {
     letter-spacing: 0.01em;
   }
 
-  footer .footer-body {
+  footer .footer-body .max-width {
     flex-direction: column;
     padding: 20px;
   }

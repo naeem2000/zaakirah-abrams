@@ -1,0 +1,426 @@
+.bowl-of-care .bowl-head {
+
+    background: url('/boc_header 2.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 123px 127px 117px 0px;
+}
+
+.bowl-of-care .bowl-head .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.bowl-of-care .bowl-head div h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    color: var(--brown);
+    font-weight: 800;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+    margin-bottom: 19px;
+}
+
+.bowl-of-care .bowl-head p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+    max-width: 438px;
+    color: var(--white);
+}
+
+.bowl-of-care .bowl-head p:nth-child(3) {
+    margin-top: 15px;
+}
+
+.bowl-of-care .bowl-head img {
+    margin-top: 22px;
+    margin-bottom: 17px;
+}
+
+.bowl-of-care .bowl-head p:last-child {
+    color: var(--brown);
+}
+
+.bowl-of-care .about-bowl {
+    background: var(--black);
+    padding-top: 77px;
+}
+
+.bowl-of-care .about-bowl .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bowl-of-care .about-bowl h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: var(--white);
+    margin-bottom: 46px;
+}
+
+.bowl-of-care .about-bowl p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    max-width: 1327px;
+    color: var(--white);
+    margin-bottom: 77px;
+}
+
+.bowl-of-care .about-bowl p span {
+    color: var(--brown);
+    font-weight: 700;
+}
+
+.bowl-of-care .about-bowl .line {
+    border-top: 1px solid #FFFFFF;
+    max-width: 1039px;
+    width: 100%;
+}
+
+.bowl-of-care .mood {
+    background: var(--black);
+    padding: 46px 0px 113px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bowl-of-care .mood h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: var(--brown);
+    margin-bottom: 58px;
+}
+
+.bowl-of-care .mood img {
+    max-width: 1213px;
+    width: 100%;
+    height: auto;
+}
+
+.bowl-of-care .scope {
+    padding: 92px 113px;
+}
+
+.bowl-of-care .scope h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: var(--brown);
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.bowl-of-care .scope h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: var(--black);
+}
+
+.bowl-of-care .scope .scope-row {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.bowl-of-care .scope .scope-row .scope-card {
+    width: 324px;
+    height: 219px;
+    border-radius: 20px;
+    background: var(--custom-grey);
+    padding: 25px;
+    margin-right: 10px;
+}
+
+.bowl-of-care .scope .scope-row .scope-card:last-child {
+    margin-right: 0px;
+}
+
+.bowl-of-care .scope .scope-row .scope-card>div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bowl-of-care .scope .scope-row .scope-card div img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    padding: 10px;
+    background: var(--off-white);
+}
+
+.bowl-of-care .scope .scope-row .scope-card div .label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 158px;
+    border-radius: 20px;
+    background: var(--brown);
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+    color: var(--white);
+}
+
+.bowl-of-care .scope .scope-row .scope-card p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: left;
+    margin-top: 42px;
+}
+
+.bowl-of-care .boc-logo {
+    background: var(--black);
+}
+
+.bowl-of-care .boc-logo .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.colors>div {
+    padding: 37px 64px;
+}
+
+.colors div:nth-child(1) {
+    background: var(--white);
+}
+
+.colors div:nth-child(1) h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+
+.colors div:nth-child(1) h2 span {
+    color: var(--brown);
+    font-weight: 700;
+}
+
+.colors div:nth-child(2) {
+    background: linear-gradient(90deg, #DF966E 47%, #FFFFFF 100%);
+}
+
+.colors h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 45px;
+    letter-spacing: 0.01em;
+    color: var(--white);
+}
+
+.colors p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+    color: var(--white);
+}
+
+.colors div:nth-child(3) {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    background: linear-gradient(90deg, #737373 0%, #FFFFFF 31.5%);
+}
+
+.colors div:nth-child(3)>div>* {
+    color: var(--black);
+}
+
+.colors div:nth-child(4) {
+    background: linear-gradient(90deg, #000000 43%, #FFFFFF 100%);
+}
+
+.bowl-of-care .font {
+    padding: 101px 199px 115px 200px;
+}
+
+.bowl-of-care .font {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bowl-of-care .font div h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 160px;
+    font-weight: 500;
+    line-height: 130px;
+    letter-spacing: 0.01em;
+    color: var(--black);
+    text-align: center;
+}
+
+.bowl-of-care .font div:nth-child(1) p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+    color: var(--black);
+    text-align: center;
+    margin-top: 18px;
+}
+
+.bowl-of-care .font div:nth-child(2) p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.2em;
+    margin-bottom: 8px;
+}
+
+.bowl-of-care .font div:nth-child(2) p:last-child {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+    margin-bottom: 0px;
+}
+
+.bowl-of-care .components {
+    padding: 0px 64px 93px 93px;
+}
+
+.bowl-of-care .components h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0.01em;
+}
+
+.bowl-of-care .components .elements {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bowl-of-care .screens {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 0px 184px 0px 144px;
+    margin-bottom: 112px;
+}
+
+.bowl-of-care .screens div:nth-child(1) h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 100px;
+    font-weight: 600;
+    line-height: 90px;
+    letter-spacing: 0.01em;
+}
+
+.bowl-of-care .screens div:nth-child(1) p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: 0.01em;
+    text-align: center;
+}
+
+.bowl-of-care .screens div:nth-child(2) p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    max-width: 632px;
+}
+
+.bowl-of-care .img-designs {
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: auto auto auto;
+    place-content: center;
+    gap: 100px;
+}
+
+.bowl-of-care .img-designs img:nth-child(1) {
+    margin-top: 70px;
+}
+
+.bowl-of-care .img-designs img:nth-child(2) {
+    margin-top: 150px;
+}
+
+.bowl-of-care .img-designs img:nth-child(4) {
+    margin-top: 70px;
+}
+
+.bowl-of-care .img-designs img:nth-child(5) {
+    margin-top: 150px;
+}
+
+.bowl-of-care .img-designs img:nth-child(6) {
+    margin-bottom: 150px;
+}
+
+.bowl-of-care .more {
+    margin-top: 80px;
+    margin-bottom: 93px;
+}
+
+.bowl-of-care .more h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0.01em;
+    text-align: center;
+}
+
+.bowl-of-care .more p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    margin-top: 50px;
+}

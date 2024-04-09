@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import './photography.css';
 import React from 'react';
-import Footer from '../components/Footer';
 
 export default function page() {
 	return (
@@ -121,7 +120,6 @@ export default function page() {
 				</div>
 				<a href=''>CHECK OUT THEIR INSTAGRAM</a>
 			</div>
-			<Footer />
 		</section>
 	);
 }

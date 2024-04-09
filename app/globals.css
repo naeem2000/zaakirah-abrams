@@ -38,7 +38,8 @@ section.hero {
   align-items: center;
   justify-content: flex-start;
   background: linear-gradient(113.04deg, #CF81FF 3.08%, #31B5FF 107.42%);
-  padding: 370px 117px;
+  padding-left: 117px;
+  height: 100vh;
 }
 
 section.hero h1 {

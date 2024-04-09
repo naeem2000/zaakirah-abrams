@@ -63,55 +63,97 @@ export default function page() {
 					</div>
 					<div className='scope-card'>
 						<div>
-							<Image
-								alt='researh'
-								width={20}
-								height={20}
-								src={'/research.svg'}
-							/>
-							<div className='label'>Research</div>
+							<Image alt='design' width={20} height={20} src={'/design.svg'} />
+							<div className='label'>Design</div>
 						</div>
 						<p>
-							After meeting up with the client we carefully analyzed the market
-							and surveyed users to fine-tune the features and functions of the
-							app we designed.
+							We designed a user-friendly interface with flexible layouts and
+							interactive features to make the experience engaging to all
 						</p>
 					</div>
 					<div className='scope-card'>
 						<div>
 							<Image
-								alt='researh'
+								alt='testing'
 								width={20}
 								height={20}
-								src={'/research.svg'}
+								src={'/testing.svg'}
 							/>
-							<div className='label'>Research</div>
+							<div className='label'>Testing</div>
 						</div>
 						<p>
-							After meeting up with the client we carefully analyzed the market
-							and surveyed users to fine-tune the features and functions of the
-							app we designed.
+							Together with testing we went through competitive analysis and
+							tested the app to ensure that it works well and that it's easy to
+							use. All feedback that was given, is visibly showcased with the
+							final outcome of the project.
 						</p>
 					</div>
 					<div className='scope-card'>
 						<div>
 							<Image
-								alt='researh'
+								alt='present'
 								width={20}
 								height={20}
-								src={'/research.svg'}
+								src={'/present.svg'}
 							/>
-							<div className='label'>Research</div>
+							<div className='label'>Presentation</div>
 						</div>
 						<p>
-							After meeting up with the client we carefully analyzed the market
-							and surveyed users to fine-tune the features and functions of the
-							app we designed.
+							For the final presentation, we shared the highlights of the app's
+							feature, design decisions, and the role each person contributed.
 						</p>
 					</div>
 				</div>
 			</div>
-			<div className='boc-logo max-width'>awe</div>
+			<div className='boc-logo'>
+				<div className='max-width'>
+					<Image
+						alt='Bowl of Care logo'
+						width={382}
+						height={382}
+						src={'/BOC.png'}
+					/>
+				</div>
+			</div>
+			<div className='colors max-width'>
+				<div>
+					<h2>
+						Colors <br />& <span>Typography</span>
+					</h2>
+				</div>
+				<div>
+					<h3>Primary</h3>
+					<p>#df966e</p>
+					<p>RGB 223, 150, 110</p>
+				</div>
+				<div>
+					<div>
+						<h3>White</h3>
+						<p>#000000</p>
+						<p>RGB 20, 22, 30</p>
+					</div>
+				</div>
+				<div>
+					<h3>Black</h3>
+					<p>#F8F8F8</p>
+					<p>RGB 248, 248, 248</p>
+				</div>
+			</div>
+			<div className='font max-width'>
+				<div>
+					<h2>Aa</h2>
+					<p>Montserrat</p>
+				</div>
+				<div>
+					<p>ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+					<p>abcdefghijklmnopqrstuvwxyz</p>
+					<p>1234567890</p>
+					<p>Regular, Medium, Semi-Medium, Bold </p>
+				</div>
+			</div>
+			<div className='components max-width'>
+				<h2>Components</h2>
+			</div>
 		</section>
 	);
 }

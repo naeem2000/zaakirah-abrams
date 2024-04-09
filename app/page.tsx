@@ -1,12 +1,23 @@
+'use client';
+
 import Image from 'next/image';
+import Typewriter from 'typewriter-effect';
 
 export default function Home() {
 	return (
 		<>
 			<section className='hero'>
 				<h1>
-					Zaakirah Abrams | a designer focused on creating user-centric
-					experiences and great visuals
+					<Typewriter
+						options={{
+							strings: [
+								'Zaakirah Abrams | a designer focused on creating user-centric experiences and great visuals',
+							],
+							autoStart: true,
+							delay: 50,
+							loop: false,
+						}}
+					/>
 				</h1>
 			</section>
 			<section className='gallery'>

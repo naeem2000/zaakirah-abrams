@@ -153,6 +153,38 @@ export default function page() {
 			</div>
 			<div className='components max-width'>
 				<h2>Components</h2>
+				<div className='elements'>
+					<Image
+						alt='elements'
+						width={1209}
+						height={810}
+						src={'/elements.png'}
+					/>
+				</div>
+			</div>
+			<div className='screens max-width'>
+				<div>
+					<h2>+10</h2>
+					<p>Screens</p>
+				</div>
+				<div>
+					<p>
+						With the insights gathered from the research, we've created a
+						platform that resonated with the target audience and users' neeeds
+					</p>
+				</div>
+			</div>
+			<div className='img-designs max-width'>
+				<Image alt='Splash 1' width={375} height={812} src={'/Splash1.png'} />
+				<Image alt='Splash 2' width={375} height={812} src={'/Splash2.png'} />
+				<Image alt='Splash 3' width={375} height={812} src={'/Splash3.png'} />
+				<Image alt='Splash 4' width={375} height={812} src={'/Splash4.png'} />
+				<Image alt='Splash 5' width={375} height={812} src={'/Splash5.png'} />
+				<Image alt='Splash 6' width={375} height={812} src={'/Splash6.png'} />
+			</div>
+			<div className='more'>
+				<h2>+ More</h2>
+				<p>Thank you for viewing this project</p>
 			</div>
 		</section>
 	);

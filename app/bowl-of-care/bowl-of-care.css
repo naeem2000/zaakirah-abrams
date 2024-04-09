@@ -321,5 +321,106 @@
 }
 
 .bowl-of-care .components {
-    padding: 0px 64px 93px;
+    padding: 0px 64px 93px 93px;
+}
+
+.bowl-of-care .components h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0.01em;
+}
+
+.bowl-of-care .components .elements {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bowl-of-care .screens {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 0px 184px 0px 144px;
+    margin-bottom: 112px;
+}
+
+.bowl-of-care .screens div:nth-child(1) h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 100px;
+    font-weight: 600;
+    line-height: 90px;
+    letter-spacing: 0.01em;
+}
+
+.bowl-of-care .screens div:nth-child(1) p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: 0.01em;
+    text-align: center;
+}
+
+.bowl-of-care .screens div:nth-child(2) p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    max-width: 632px;
+}
+
+.bowl-of-care .img-designs {
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: auto auto auto;
+    place-content: center;
+    gap: 100px;
+}
+
+.bowl-of-care .img-designs img:nth-child(1) {
+    margin-top: 70px;
+}
+
+.bowl-of-care .img-designs img:nth-child(2) {
+    margin-top: 150px;
+}
+
+.bowl-of-care .img-designs img:nth-child(4) {
+    margin-top: 70px;
+}
+
+.bowl-of-care .img-designs img:nth-child(5) {
+    margin-top: 150px;
+}
+
+.bowl-of-care .img-designs img:nth-child(6) {
+    margin-bottom: 150px;
+}
+
+.bowl-of-care .more {
+    margin-top: 80px;
+    margin-bottom: 93px;
+}
+
+.bowl-of-care .more h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0.01em;
+    text-align: center;
+}
+
+.bowl-of-care .more p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    margin-top: 50px;
 }

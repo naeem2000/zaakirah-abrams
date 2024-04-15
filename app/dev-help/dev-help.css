@@ -1,0 +1,132 @@
+.dev-help .help-head {
+    background: url('/devHelp-bg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 209px 114px 437px 0px;
+}
+
+.dev-help .help-head .max-width {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+
+.dev-help .help-head .max-width h1 {
+    color: var(--light-peach);
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.dev-help .help-head .max-width p {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: var(--white);
+    margin-bottom: 30px;
+    max-width: 485px;
+    margin-right: 50px;
+}
+
+.dev-help .help-head .max-width p:last-child {
+    margin-bottom: 13px;
+}
+
+.dev-help .help-head .max-width>div img:first-child {
+    margin-right: 13px;
+}
+
+.dev-help .dev-about {
+    padding: 75px 104px;
+    background: var(--light-peach);
+}
+
+.dev-help .dev-about .dev-about-head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 58px;
+}
+
+.dev-help .dev-about .dev-about-head>p {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+}
+
+.dev-help .dev-about .help-about-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dev-help .dev-about .help-about-body div:first-child p:first-child {
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    max-width: 651px;
+    margin-bottom: 103px;
+}
+
+.dev-help .dev-about .help-about-body h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 96px;
+    font-weight: 900;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    margin-bottom: 166px;
+}
+
+.dev-help .dev-about .help-about-body div:first-child p:last-child {
+    font-family: "Poppins", sans-serif;
+    max-width: 670px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+
+.dev-help .dev-about .help-about-body div:last-child {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-self: flex-end;
+    place-items: start;
+    gap: 40px;
+    margin-bottom: 28px;
+}
+
+.dev-help .dev-about .help-about-body div:last-child p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid var(--black);
+    width: 162px;
+    height: 41px;
+    transition: all ease .5s;
+}
+
+.dev-help .dev-about .help-about-body div:last-child p:hover {
+    transform: translate(-15px);
+    scale: 1.08;
+}

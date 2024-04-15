@@ -8,7 +8,9 @@ export default function Footer() {
 				<div className='max-width'>
 					<div className='footer-left'>
 						<p>Want to discuss a project or have a job offer?</p>
-						<a href='mailto:'>Get in touch</a>
+						<a href='mailto:' target='_blank'>
+							Get in touch
+						</a>
 					</div>
 					<div className='footer-right'>
 						<div>

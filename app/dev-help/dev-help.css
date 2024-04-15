@@ -64,12 +64,12 @@
     letter-spacing: 0.01em;
 }
 
-.dev-help .dev-about .help-about-body {
+.dev-help .dev-about .help-about-body .max-width {
     display: flex;
     justify-content: space-between;
 }
 
-.dev-help .dev-about .help-about-body div:first-child p:first-child {
+.dev-help .dev-about .help-about-body .max-width div:first-child p:first-child {
     font-family: "Poppins", sans-serif;
     font-size: 32px;
     font-weight: 400;
@@ -80,7 +80,7 @@
     margin-bottom: 103px;
 }
 
-.dev-help .dev-about .help-about-body h2 {
+.dev-help .dev-about .help-about-body .max-width h2 {
     font-family: "Poppins", sans-serif;
     font-size: 96px;
     font-weight: 900;
@@ -90,7 +90,7 @@
     margin-bottom: 166px;
 }
 
-.dev-help .dev-about .help-about-body div:first-child p:last-child {
+.dev-help .dev-about .help-about-body .max-width div:first-child p:last-child {
     font-family: "Poppins", sans-serif;
     max-width: 670px;
     font-size: 16px;
@@ -100,7 +100,7 @@
     text-align: left;
 }
 
-.dev-help .dev-about .help-about-body div:last-child {
+.dev-help .dev-about .help-about-body .max-width div:last-child {
     display: grid;
     grid-template-columns: auto auto;
     align-self: flex-end;
@@ -109,7 +109,7 @@
     margin-bottom: 28px;
 }
 
-.dev-help .dev-about .help-about-body div:last-child p {
+.dev-help .dev-about .help-about-body .max-width div:last-child>p {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -126,7 +126,90 @@
     transition: all ease .5s;
 }
 
-.dev-help .dev-about .help-about-body div:last-child p:hover {
+.dev-help .dev-about .help-about-body div:last-child>p:hover {
     transform: translate(-15px);
     scale: 1.08;
+}
+
+.dev-help .help-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.dev-help .help-grid>div {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 500px;
+}
+
+.dev-help .help-grid .help-grid-left {
+    padding: 146px 92px;
+    background: var(--black);
+}
+
+.dev-help .help-grid .help-grid-left p {
+    max-width: 433px;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: var(--light-peach);
+}
+
+.dev-help .help-grid .help-grid-left p:last-child {
+    margin-top: 46px;
+}
+
+.dev-help .help-grid div img {
+    width: 100%;
+    height: 100%;
+}
+
+.dev-help .help-grid .help-grid-right {
+    background: var(--light-peach);
+    padding: 49px 84px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.dev-help .help-grid .help-grid-right>div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.dev-help .help-grid .help-grid-right>div img {
+    width: 200px;
+    height: auto;
+}
+
+.dev-help .help-grid .help-grid-right>div p {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.01em;
+    color: var(--black);
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.dev-help .phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 75px;
+    background: var(--black-gradient);
+}
+
+.dev-help .phone img {
+    width: 760.68px;
+    height: auto;
 }

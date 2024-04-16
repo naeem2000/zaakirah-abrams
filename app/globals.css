@@ -12,6 +12,7 @@
   --light-peach: #FFF7DA;
   --custom-grey: #E5E5E5;
   --off-white: #F1F1F1;
+  --grey: #B2B2B2;
   --black-gradient: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.72) 100%);
 }
 
@@ -32,6 +33,8 @@ a {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 120px;
+  padding-right: 120px;
 }
 
 /* HERO START */

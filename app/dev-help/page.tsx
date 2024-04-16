@@ -96,6 +96,88 @@ export default function page() {
 			<div className='phone'>
 				<Image src={'/iphone.png'} alt='app icon' width={760} height={1538} />
 			</div>
+			<div className='des-process'>
+				<div className='max-width'>
+					<div className='process-head'>
+						<h2>Design Process</h2>
+						<p>
+							This project operates with only one designer, as the competition
+							required teams of two individuals. The team maintained continuous
+							communication, offering valuable insights throughout the process
+						</p>
+					</div>
+					<div className='process-row'>
+						<div className='process-card'>
+							<Image
+								src={'/light-eye.png'}
+								alt='project'
+								width={25}
+								height={20}
+							/>
+							<p>1. Project Ideation</p>
+							<p>Understanding the project goals and objectives. </p>
+						</div>
+						<div className='process-card'>
+							<Image
+								src={'/light-magnify.png'}
+								alt='research'
+								width={20}
+								height={20}
+							/>
+							<p>2. Research</p>
+							<p>Understanding the project goals and objectives. </p>
+						</div>
+						<div className='process-card'>
+							<Image
+								src={'/light-pen.png'}
+								alt='design'
+								width={20}
+								height={20}
+							/>
+							<p>3. Design</p>
+							<p>
+								Coming up with wire-frames that bests suits the research done.
+							</p>
+						</div>
+						<div className='process-card'>
+							<Image
+								src={'/light-board.png'}
+								alt='present'
+								width={20}
+								height={20}
+							/>
+							<p>4. Presentation</p>
+							<p>
+								Presenting the design to a panel of judges and taking the win of
+								first place.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div className='colors-typo'>
+				<div className='max-width'>
+					<h2>Colors & Typography</h2>
+				</div>
+				<div className='colors-row max-width'>
+					<div className='color-card'>
+						<h3>#FFF7DA</h3>
+						<p>Used mainly on CTA </p>
+					</div>
+					<div className='color-card'>
+						<h3>#747474</h3>
+						<p>Used on most components on the app </p>
+					</div>
+					<div className='color-card'>
+						<h3>#FBBC05</h3>
+						<p>Used on headings</p>
+					</div>
+					<div className='color-card'>
+						<h3>#000000</h3>
+						<p>Used on all text </p>
+					</div>
+				</div>
+			</div>
 		</section>
 	);
 }

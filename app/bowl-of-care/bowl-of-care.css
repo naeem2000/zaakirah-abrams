@@ -158,11 +158,7 @@
     border-radius: 20px;
     background: var(--custom-grey);
     padding: 25px;
-    margin-right: 10px;
-}
-
-.bowl-of-care .scope .scope-row .scope-card:last-child {
-    margin-right: 0px;
+    margin: 20px;
 }
 
 .bowl-of-care .scope .scope-row .scope-card>div {

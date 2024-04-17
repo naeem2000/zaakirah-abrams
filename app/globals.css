@@ -262,6 +262,11 @@ footer .footer-body .footer-right a {
 }
 
 @media screen and (max-width: 550px) {
+  .max-width {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
   section.hero {
     padding: 50px 20px;
   }

@@ -177,6 +177,94 @@ export default function page() {
 						<p>Used on all text </p>
 					</div>
 				</div>
+				<div className='typo max-width'>
+					<div className='typo-head'>
+						<div className='typo-left'>
+							<h1>Aa</h1>
+							<p>Poppins</p>
+							<p>Regular, Medium, Semi-Medium, Bold</p>
+							<p>ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+						</div>
+						<div className='typo-right'>
+							<h2>Buttons</h2>
+							<div className='buttons'>
+								<div>
+									<button>Get Started</button>
+									<button className='dark-btn'>Log In</button>
+									<button>Sign In</button>
+								</div>
+								<div>
+									<button>Continue</button>
+									<button>Apply Now</button>
+									<button>
+										<Image
+											src={'/google.png'}
+											alt='google'
+											width={12}
+											height={13}
+										/>
+										Login with Google
+									</button>
+								</div>
+							</div>
+							<p>Forgot Password?</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div className='icons'>
+				<div className='max-width'>
+					<h2>Icons</h2>
+				</div>
+				<Image src={'/icon-row.png'} alt='icons' width={1200} height={50} />
+			</div>
+			<div className='user-flow'>
+				<div className='image-flow-head'>
+					<Image
+						src={'/under-icons.png'}
+						alt='laptop'
+						width={1900}
+						height={1000}
+					/>
+				</div>
+				<div className='flow-body'>
+					<div className='max-width'>
+						<h2>User Flow</h2>
+						<p>
+							Used User Flow as visual guides, outlining the sequential steps a
+							user takes to achieve tasks or goals within the app.
+						</p>
+					</div>
+					<div className='design-flow'>
+						<Image
+							src={'/design-flow.png'}
+							alt='flow'
+							width={1900}
+							height={1000}
+						/>
+					</div>
+				</div>
+			</div>
+			<div className='onboarding'>
+				<div className='max-width'>
+					<h2>Onboarding</h2>
+				</div>
+				<div className='onboarding-row'>
+					<Image src={'/onb1.png'} alt='slide 1' width={332} height={718} />
+					<Image src={'/onb2.png'} alt='slide 2' width={332} height={718} />
+					<Image src={'/onb3.png'} alt='slide 3' width={332} height={718} />
+					<Image src={'/onb4.png'} alt='slide 4' width={300} height={718} />
+				</div>
+				<div className='onboarding-row'>
+					<Image src={'/onb5.png'} alt='slide 5' width={250} height={718} />
+					<Image src={'/onb6.png'} alt='slide 6' width={332} height={718} />
+					<Image src={'/onb7.png'} alt='slide 7' width={332} height={718} />
+				</div>
+			</div>
+			<div className='forgot-password'>
+				<div className='max-width'>
+					<h2>Forgot Password</h2>
+				</div>
 			</div>
 		</section>
 	);

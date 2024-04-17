@@ -212,6 +212,11 @@
     justify-content: center;
 }
 
+.colors {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 .colors>div {
     padding: 37px 64px;
 }

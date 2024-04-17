@@ -216,10 +216,12 @@ export default function page() {
 				<div className='max-width'>
 					<h2>Icons</h2>
 				</div>
-				<Image src={'/icon-row.png'} alt='icons' width={1200} height={50} />
+				<div className='max-width'>
+					<Image src={'/icon-row.png'} alt='icons' width={1200} height={50} />
+				</div>
 			</div>
 			<div className='user-flow'>
-				<div className='image-flow-head'>
+				<div className='image-flow-head max-width'>
 					<Image
 						src={'/under-icons.png'}
 						alt='laptop'
@@ -235,7 +237,7 @@ export default function page() {
 							user takes to achieve tasks or goals within the app.
 						</p>
 					</div>
-					<div className='design-flow'>
+					<div className='design-flow max-width'>
 						<Image
 							src={'/design-flow.png'}
 							alt='flow'
@@ -249,13 +251,13 @@ export default function page() {
 				<div className='max-width'>
 					<h2>Onboarding</h2>
 				</div>
-				<div className='onboarding-row'>
+				<div className='onboarding-row max-width'>
 					<Image src={'/onb1.png'} alt='slide 1' width={332} height={718} />
 					<Image src={'/onb2.png'} alt='slide 2' width={332} height={718} />
 					<Image src={'/onb3.png'} alt='slide 3' width={332} height={718} />
 					<Image src={'/onb4.png'} alt='slide 4' width={300} height={718} />
 				</div>
-				<div className='onboarding-row'>
+				<div className='onboarding-row max-width'>
 					<Image src={'/onb5.png'} alt='slide 5' width={250} height={718} />
 					<Image src={'/onb6.png'} alt='slide 6' width={332} height={718} />
 					<Image src={'/onb7.png'} alt='slide 7' width={332} height={718} />
@@ -265,6 +267,16 @@ export default function page() {
 				<div className='max-width'>
 					<h2>Forgot Password</h2>
 				</div>
+				<div className='forgot-row max-width'>
+					<Image src={'/forgot1.png'} alt='slide 2' width={332} height={718} />
+					<Image src={'/forgot2.png'} alt='slide 3' width={332} height={718} />
+					<Image src={'/forgot3.png'} alt='slide 6' width={332} height={718} />
+					<Image src={'/forgot4.png'} alt='slide 4' width={300} height={718} />
+				</div>
+			</div>
+			<div className='more'>
+				<h2>+ More</h2>
+				<p>Thank you for viewing this project</p>
 			</div>
 		</section>
 	);

@@ -498,7 +498,11 @@
     line-height: 33px;
     letter-spacing: 0.01em;
     text-align: left;
-    margin-bottom: 56px;
+    margin-bottom: 70px;
+}
+
+.dev-help .icons .max-width:last-child {
+    padding: 0;
 }
 
 .dev-help .icons img {
@@ -510,6 +514,10 @@
 
 .dev-help .user-flow {
     background: var(--black);
+}
+
+.dev-help .user-flow .image-flow-head.max-width {
+    padding: 0;
 }
 
 .dev-help .user-flow .image-flow-head img {
@@ -556,8 +564,13 @@
     height: auto;
 }
 
+.dev-help .user-flow .flow-body .design-flow.max-width {
+    padding-right: 0;
+}
+
 .dev-help .onboarding {
     padding-top: 159px;
+    background: var(--off-white);
 }
 
 .dev-help .onboarding .max-width h2 {
@@ -574,28 +587,32 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: flex-end;
     padding-left: 120px;
     margin-top: 89px;
 }
 
-.dev-help .onboarding .onboarding-row img {
-    margin-right: 43px;
+.dev-help .onboarding .onboarding-row.max-width {
+    padding: 0;
 }
 
-.dev-help .onboarding .onboarding-row img:last-child {
-    margin-right: 0px;
+.dev-help .onboarding .onboarding-row:nth-child(2) img {
+    margin-left: auto;
 }
 
 .dev-help .onboarding .onboarding-row:nth-child(3) {
     justify-content: flex-start;
     padding-right: 120px;
     padding-left: 0;
-    margin-bottom: 113px;
 }
 
 .dev-help .onboarding .onboarding-row:nth-child(3) img {
     margin-right: auto;
+}
+
+.dev-help .forgot-password {
+    background: var(--off-white);
+    padding: 113px 0px;
 }
 
 .dev-help .forgot-password .max-width h2 {
@@ -607,4 +624,45 @@
     text-align: right;
     color: var(--yellow);
     margin-bottom: 60px;
+}
+
+.dev-help .forgot-password .forgot-row.max-width {
+    padding: 0;
+}
+
+.dev-help .forgot-password .forgot-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding-left: 58px;
+}
+
+.dev-help .forgot-password .forgot-row img {
+    margin-left: auto;
+}
+
+.dev-help .more {
+    padding: 80px 0px;
+}
+
+.dev-help .more h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: var(--black);
+}
+
+.dev-help .more p {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: var(--black);
+    margin-top: 30px;
 }

@@ -1,3 +1,7 @@
+.dev-help {
+    font-family: "Poppins", sans-serif;
+}
+
 .dev-help .help-head {
     background: url('/devHelp-bg.png');
     background-repeat: no-repeat;
@@ -15,7 +19,6 @@
 
 .dev-help .help-head .max-width h1 {
     color: var(--light-peach);
-    font-family: "Poppins", sans-serif;
     font-size: 40px;
     font-weight: 900;
     line-height: 33px;
@@ -25,7 +28,6 @@
 }
 
 .dev-help .help-head .max-width p {
-    font-family: "Poppins", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 33px;
@@ -57,7 +59,6 @@
 }
 
 .dev-help .dev-about .dev-about-head>p {
-    font-family: "Poppins", sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 33px;
@@ -70,7 +71,6 @@
 }
 
 .dev-help .dev-about .help-about-body .max-width div:first-child p:first-child {
-    font-family: "Poppins", sans-serif;
     font-size: 32px;
     font-weight: 400;
     line-height: 50px;
@@ -81,7 +81,6 @@
 }
 
 .dev-help .dev-about .help-about-body .max-width h2 {
-    font-family: "Poppins", sans-serif;
     font-size: 96px;
     font-weight: 900;
     line-height: 33px;
@@ -91,7 +90,6 @@
 }
 
 .dev-help .dev-about .help-about-body .max-width div:first-child p:last-child {
-    font-family: "Poppins", sans-serif;
     max-width: 670px;
     font-size: 16px;
     font-weight: 400;
@@ -113,7 +111,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: "Poppins", sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 33px;
@@ -156,7 +153,6 @@
 
 .dev-help .help-grid .help-grid-left p {
     max-width: 433px;
-    font-family: "Poppins", sans-serif;
     font-size: 20px;
     font-style: italic;
     font-weight: 400;
@@ -196,7 +192,6 @@
 }
 
 .dev-help .help-grid .help-grid-right>div p {
-    font-family: "Poppins", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 40px;
@@ -231,7 +226,6 @@
 }
 
 .dev-help .des-process .process-head h2 {
-    font-family: "Poppins", sans-serif;
     font-size: 40px;
     font-weight: 300;
     line-height: 60px;
@@ -240,7 +234,6 @@
 }
 
 .dev-help .des-process .process-head p {
-    font-family: "Poppins", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 33px;
@@ -265,7 +258,6 @@
 }
 
 .dev-help .des-process .process-row .process-card p:nth-child(2) {
-    font-family: "Poppins", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 33px;
@@ -277,7 +269,6 @@
 }
 
 .dev-help .des-process .process-row .process-card p:nth-child(3) {
-    font-family: "Poppins", sans-serif;
     font-size: 12px;
     font-weight: 400;
     line-height: 20px;
@@ -291,7 +282,6 @@
 }
 
 .dev-help .colors-typo h2 {
-    font-family: "Poppins", sans-serif;
     font-size: 40px;
     font-weight: 300;
     line-height: 60px;
@@ -325,7 +315,6 @@
 }
 
 .dev-help .colors-typo .colors-row .color-card h3 {
-    font-family: "Poppins", sans-serif;
     font-size: 40px;
     font-weight: 600;
     line-height: 60px;
@@ -334,7 +323,6 @@
 }
 
 .dev-help .colors-typo .colors-row .color-card p {
-    font-family: "Poppins", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -373,7 +361,6 @@
 }
 
 .dev-help .colors-typo .typo .typo-head .typo-left h1 {
-    font-family: "Poppins", sans-serif;
     font-size: 160px;
     font-weight: 500;
     line-height: 120px;
@@ -383,7 +370,6 @@
 }
 
 .dev-help .colors-typo .typo .typo-head .typo-left p {
-    font-family: "Poppins", sans-serif;
     font-size: 24px;
     font-weight: 400;
     line-height: 33px;
@@ -400,7 +386,6 @@
 }
 
 .dev-help .colors-typo .typo .typo-head .typo-right h2 {
-    font-family: "Poppins", sans-serif;
     font-size: 40px;
     font-weight: 600;
     line-height: 33px;
@@ -433,7 +418,6 @@
     border-radius: 10px;
     border: none;
     background: var(--light-peach);
-    font-family: "Poppins", sans-serif;
     font-size: 15px;
     font-weight: 400;
     line-height: 22.5px;
@@ -460,7 +444,6 @@
     border-radius: 10px;
     border: none;
     background: var(--light-peach);
-    font-family: "Poppins", sans-serif;
     font-size: 15px;
     font-weight: 400;
     line-height: 22.5px;
@@ -478,7 +461,6 @@
 }
 
 .dev-help .colors-typo .typo .typo-head .typo-right>p {
-    font-family: "Poppins", sans-serif;
     font-size: 12px;
     font-weight: 500;
     line-height: 18px;
@@ -493,7 +475,6 @@
 }
 
 .dev-help .icons h2 {
-    font-family: "Poppins", sans-serif;
     font-size: 40px;
     font-weight: 600;
     line-height: 33px;
@@ -533,7 +514,6 @@
 }
 
 .dev-help .user-flow .flow-body .max-width h2 {
-    font-family: "Poppins", sans-serif;
     font-size: 40px;
     font-weight: 300;
     line-height: 60px;
@@ -543,7 +523,6 @@
 }
 
 .dev-help .user-flow .flow-body .max-width p {
-    font-family: "Poppins", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -575,7 +554,6 @@
 }
 
 .dev-help .onboarding .max-width h2 {
-    font-family: "Poppins", sans-serif;
     font-size: 40px;
     font-weight: 400;
     line-height: 60px;
@@ -617,7 +595,6 @@
 }
 
 .dev-help .forgot-password .max-width h2 {
-    font-family: "Poppins", sans-serif;
     font-size: 40px;
     font-weight: 400;
     line-height: 60px;
@@ -648,7 +625,6 @@
 }
 
 .dev-help .more h2 {
-    font-family: "Poppins", sans-serif;
     font-size: 50px;
     font-weight: 600;
     line-height: 48px;
@@ -658,7 +634,6 @@
 }
 
 .dev-help .more p {
-    font-family: "Poppins", sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 36px;

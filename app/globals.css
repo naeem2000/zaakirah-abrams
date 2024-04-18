@@ -41,6 +41,11 @@ a {
   padding-right: 120px;
 }
 
+.home,
+footer {
+  font-family: "Poppins", sans-serif;
+}
+
 /* HERO START */
 .hero {
   background: url(/hero-bg.png);
@@ -58,7 +63,6 @@ a {
 
 .hero nav a {
   margin-right: 72px;
-  font-family: "Poppins", sans-serif;
   font-size: 15px;
   font-weight: 500;
   line-height: 33px;
@@ -92,7 +96,6 @@ a {
 }
 
 .hero .header>div p {
-  font-family: "Poppins", sans-serif;
   font-size: 25px;
   font-weight: 900;
   line-height: 33px;
@@ -102,7 +105,6 @@ a {
 }
 
 .hero .header>div h1 {
-  font-family: "Poppins", sans-serif;
   font-size: 128px;
   font-weight: 900;
   line-height: 128px;
@@ -110,6 +112,7 @@ a {
   text-align: center;
   background: -webkit-linear-gradient(90deg, rgba(64, 82, 228, 0.3) 0%, #4052E4 100%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -125,7 +128,7 @@ a {
 .hero .header>div .speech-bubble::after {
   content: '';
   position: absolute;
-  top: -20px;
+  top: -18px;
   left: 65%;
   transform: translateX(-50%) rotate(180deg);
   border-width: 10px;
@@ -134,7 +137,6 @@ a {
 }
 
 .hero .header>div .speech-bubble p {
-  font-family: "Poppins", sans-serif;
   font-size: 15px;
   font-weight: 500;
   line-height: 33px;
@@ -164,16 +166,14 @@ a {
 }
 
 .hero .about .about-right>div h2 {
-  font-family: "Poppins", sans-serif;
   font-size: 60px;
   font-weight: 900;
-  line-height: 33px;
+  line-height: 60px;
   letter-spacing: 0.01em;
   color: var(--white);
 }
 
 .hero .about .about-right p {
-  font-family: "Poppins", sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 30px;
@@ -243,7 +243,6 @@ a {
 }
 
 .img-container .overlay p:last-child {
-  font-family: "Poppins", sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 33px;
@@ -257,58 +256,73 @@ a {
 /* GALLERY END */
 
 /* GET IN TOUCH START */
-.get-in-touch {
+.get-in-touch>div {
+  width: 100%;
+  background: url(/touch-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 184px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background: rgba(223, 167, 165, 0.31);
-  padding-top: 184px;
-  padding-bottom: 135px;
+  padding-bottom: 120px;
 }
 
 .get-in-touch h2 {
-  font-family: "Tiro Tamil", serif;
-  font-size: 96px;
-  font-weight: 400;
-  line-height: 100px;
+  font-size: 120px;
+  font-weight: 900;
+  line-height: 120px;
   letter-spacing: 0.01em;
   text-align: center;
-  margin-bottom: 10px;
+  color: var(--white);
 }
 
-.get-in-touch p {
-  font-family: "Tiro Tamil", serif;
-  font-size: 32px;
-  font-weight: 400;
-  line-height: 70px;
+.get-in-touch p:nth-child(2) {
+  font-size: 20px;
+  font-weight: 300;
   letter-spacing: 0.01em;
   text-align: center;
+  margin-top: 70px;
+  background: var(--yellow);
+  padding: 5px;
+  border-radius: 5px;
+  color: var(--black);
 }
 
-.get-in-touch p span {
+.get-in-touch p:nth-child(3) {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  text-align: left;
+  margin-top: 20px;
+  color: var(--white);
+}
+
+.get-in-touch p:nth-child(3) span {
   text-decoration: underline;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: var(--white);
 }
 
 /* GET IN TOUCH END */
 
 /* FOOTER START */
 footer {
-  background: #000000;
-  padding: 60px 0px 111px;
-}
-
-footer .footer-body {
-  border: 5px solid #FFFFFF;
-  border-left: none;
-  border-right: none;
+  width: 100%;
+  background: url(/footer-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 60px 0px 20px;
 }
 
 footer .footer-body .max-width {
   display: flex;
   justify-content: space-between;
   color: white;
-  padding: 55px 238px 70px 91px;
 }
 
 footer .footer-body .footer-left {
@@ -318,26 +332,30 @@ footer .footer-body .footer-left {
 }
 
 footer .footer-body .footer-left p {
-  max-width: 351px;
-  font-family: "Tiro Tamil", serif;
   font-size: 24px;
   font-weight: 400;
   line-height: 33px;
   letter-spacing: 0.01em;
   text-align: left;
-  margin-bottom: 45px;
+  max-width: 351px;
+  margin-bottom: 30px;
 }
 
 footer .footer-body .footer-left a {
-  font-family: "Tiro Tamil", serif;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 400;
   line-height: 33px;
   letter-spacing: 0.01em;
-  text-align: center;
-  border: 3px solid #DFA7A5;
-  padding: 10px 96px;
-  border-radius: 50px;
+  color: var(--black);
+  text-align: left;
+  background: var(--yellow);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  max-width: 271px;
+  height: 58px;
+  width: 100%;
 }
 
 footer .footer-body .footer-right {
@@ -350,11 +368,10 @@ footer .footer-body .footer-right div {
 }
 
 footer .footer-body .footer-right div:first-child {
-  margin-right: 114px;
+  margin-right: 150px;
 }
 
 footer .footer-body .footer-right p {
-  font-family: "Tiro Tamil", serif;
   font-size: 24px;
   font-weight: 400;
   line-height: 33px;
@@ -363,7 +380,6 @@ footer .footer-body .footer-right p {
 }
 
 footer .footer-body .footer-right a {
-  font-family: "Poppins", sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 33px;
@@ -371,9 +387,52 @@ footer .footer-body .footer-right a {
   margin-bottom: 18px;
 }
 
+footer .footer-body .copyright {
+  margin: 0 auto;
+  margin-top: 80px;
+  width: 80%;
+  border-top: 1px solid var(--white);
+}
+
+footer .footer-body .copyright p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  margin-top: 30px;
+  color: var(--white);
+}
+
+footer .footer-body .copyright p a {
+  text-decoration: underline;
+}
+
 /* FOOTER END */
 
+@media screen and (max-width: 1280px) {
+  .cursor {
+    display: none;
+  }
+
+  footer .footer-body .footer-left {
+    justify-content: flex-start;
+  }
+}
+
 @media screen and (max-width: 1024px) {
+  .hero .about {
+    flex-direction: column;
+  }
+
+  .hero .about .about-right {
+    margin: 0;
+  }
+
+  .hero .about .about-right p {
+    max-width: 700px;
+  }
+
   footer .footer-body .max-width {
     padding: 20px;
   }
@@ -384,6 +443,14 @@ footer .footer-body .footer-right a {
 
   footer .footer-body .footer-right div:last-child {
     margin-right: 50px;
+  }
+
+  footer .footer-body .footer-left p {
+    font-size: 23px;
+  }
+
+  footer .footer-body .copyright {
+    margin-top: 20px;
   }
 }
 
@@ -405,23 +472,62 @@ footer .footer-body .footer-right a {
     padding-right: 20px;
   }
 
+  .hero nav {
+    justify-content: space-between;
+  }
+
+  .hero nav a {
+    margin: 0;
+  }
+
+  .hero .header>div h1 {
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  .hero .header>div p {
+    font-size: 20px;
+  }
+
+  .hero .header>div .speech-bubble {
+    width: 165px;
+    padding: 5px;
+  }
+
+  .hero .header>div .speech-bubble {
+    right: 70px;
+    top: 20px;
+  }
+
+  .hero .about>div img {
+    width: 100%;
+    height: auto;
+  }
+
+  .hero .about .about-right img {
+    width: 90px;
+    height: auto;
+  }
+
+  .hero .about .about-right>div h2 {
+    font-size: 40px;
+  }
+
   .img-container {
     height: 300px;
   }
 
-  .get-in-touch {
-    padding: 50px 20px;
+  .get-in-touch p:nth-child(2) {
+    margin-top: 20px;
+  }
+
+  .gallery.max-width {
+    padding: 0;
   }
 
   .get-in-touch h2 {
     font-size: 40px;
     line-height: 80px;
-  }
-
-  .get-in-touch p {
-    font-size: 30px;
-    line-height: 50px;
-    letter-spacing: 0.01em;
   }
 
   footer .footer-body .max-width {
@@ -436,28 +542,10 @@ footer .footer-body .footer-right a {
   footer .footer-body .footer-right {
     margin-top: 50px;
     justify-content: space-between;
-    margin-right: 50px;
   }
 
   footer .footer-body .footer-right div:first-child {
     margin: 0;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  footer .footer-body .footer-left {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  footer .footer-body .footer-right {
-    margin-right: 0;
-  }
-
-  footer .footer-body .footer-right div:last-child {
-    margin-right: 30px;
   }
 }
 
@@ -466,8 +554,7 @@ footer .footer-body .footer-right a {
     flex-direction: column;
   }
 
-  footer .footer-body .footer-left a {
-    padding: 10px 0px;
-    width: 100%;
+  footer .footer-body .footer-right div:last-child {
+    margin-top: 20px;
   }
 }

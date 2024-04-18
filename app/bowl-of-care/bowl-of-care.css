@@ -1,5 +1,8 @@
-.bowl-of-care .bowl-head {
+.bowl-of-care {
+    font-family: "Montserrat", sans-serif;
+}
 
+.bowl-of-care .bowl-head {
     background: url('/boc_header 2.png');
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -14,7 +17,6 @@
 }
 
 .bowl-of-care .bowl-head div h1 {
-    font-family: "Montserrat", sans-serif;
     font-size: 40px;
     color: var(--brown);
     font-weight: 800;
@@ -24,7 +26,6 @@
 }
 
 .bowl-of-care .bowl-head p {
-    font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 33px;
@@ -59,7 +60,6 @@
 }
 
 .bowl-of-care .about-bowl h2 {
-    font-family: "Montserrat", sans-serif;
     font-size: 40px;
     font-weight: 600;
     line-height: 33px;
@@ -70,7 +70,6 @@
 }
 
 .bowl-of-care .about-bowl p {
-    font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 33px;
@@ -102,7 +101,6 @@
 }
 
 .bowl-of-care .mood h2 {
-    font-family: "Montserrat", sans-serif;
     font-size: 40px;
     font-weight: 600;
     line-height: 33px;
@@ -123,7 +121,6 @@
 }
 
 .bowl-of-care .scope h3 {
-    font-family: "Montserrat", sans-serif;
     font-size: 16px;
     color: var(--brown);
     font-weight: 600;
@@ -134,7 +131,6 @@
 }
 
 .bowl-of-care .scope h2 {
-    font-family: "Montserrat", sans-serif;
     font-size: 40px;
     font-weight: 400;
     line-height: 33px;
@@ -181,7 +177,6 @@
     width: 158px;
     border-radius: 20px;
     background: var(--brown);
-    font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 33px;
@@ -190,7 +185,6 @@
 }
 
 .bowl-of-care .scope .scope-row .scope-card p {
-    font-family: "Montserrat", sans-serif;
     font-size: 12px;
     font-weight: 400;
     line-height: 15px;
@@ -222,7 +216,6 @@
 }
 
 .colors div:nth-child(1) h2 {
-    font-family: "Montserrat", sans-serif;
     font-size: 40px;
     font-weight: 400;
     line-height: 48px;
@@ -240,7 +233,6 @@
 }
 
 .colors h3 {
-    font-family: "Montserrat", sans-serif;
     font-size: 40px;
     font-weight: 800;
     line-height: 45px;
@@ -249,7 +241,6 @@
 }
 
 .colors p {
-    font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 33px;
@@ -283,7 +274,6 @@
 }
 
 .bowl-of-care .font div h2 {
-    font-family: "Montserrat", sans-serif;
     font-size: 160px;
     font-weight: 500;
     line-height: 130px;
@@ -293,7 +283,6 @@
 }
 
 .bowl-of-care .font div:nth-child(1) p {
-    font-family: "Montserrat", sans-serif;
     font-size: 24px;
     font-weight: 400;
     line-height: 33px;
@@ -304,7 +293,6 @@
 }
 
 .bowl-of-care .font div:nth-child(2) p {
-    font-family: "Montserrat", sans-serif;
     font-size: 24px;
     font-weight: 400;
     line-height: 33px;
@@ -313,7 +301,6 @@
 }
 
 .bowl-of-care .font div:nth-child(2) p:last-child {
-    font-family: "Montserrat", sans-serif;
     font-size: 24px;
     font-weight: 400;
     line-height: 33px;
@@ -326,7 +313,6 @@
 }
 
 .bowl-of-care .components h2 {
-    font-family: "Montserrat", sans-serif;
     font-size: 40px;
     font-weight: 400;
     line-height: 48px;
@@ -348,7 +334,6 @@
 }
 
 .bowl-of-care .screens div:nth-child(1) h2 {
-    font-family: "Montserrat", sans-serif;
     font-size: 100px;
     font-weight: 600;
     line-height: 90px;
@@ -356,7 +341,6 @@
 }
 
 .bowl-of-care .screens div:nth-child(1) p {
-    font-family: "Montserrat", sans-serif;
     font-size: 25px;
     font-weight: 500;
     line-height: 48px;
@@ -365,7 +349,6 @@
 }
 
 .bowl-of-care .screens div:nth-child(2) p {
-    font-family: "Montserrat", sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 36px;
@@ -407,7 +390,6 @@
 }
 
 .bowl-of-care .more h2 {
-    font-family: "Montserrat", sans-serif;
     font-size: 50px;
     font-weight: 600;
     line-height: 48px;
@@ -416,7 +398,6 @@
 }
 
 .bowl-of-care .more p {
-    font-family: "Montserrat", sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 36px;

@@ -16,29 +16,31 @@ export default function RootLayout({
 	return (
 		<html lang='en'>
 			<body>
-				<AnimatedCursor
-					innerSize={17}
-					outerSize={7}
-					color='193, 11, 111'
-					innerScale={0.7}
-					outerScale={5}
-					clickables={[
-						'a',
-						'input[type="text"]',
-						'input[type="email"]',
-						'input[type="number"]',
-						'input[type="submit"]',
-						'input[type="image"]',
-						'label[for]',
-						'select',
-						'textarea',
-						'button',
-						'.link',
-						'.tag',
-					]}
-				/>
-				{children}
-				<Footer />
+				<div className='cursor'>
+					<AnimatedCursor
+						innerSize={17}
+						outerSize={7}
+						color='193, 11, 111'
+						innerScale={0.7}
+						outerScale={5}
+						clickables={[
+							'a',
+							'input[type="number"]',
+							'input[type="submit"]',
+							'input[type="email"]',
+							'input[type="image"]',
+							'input[type="text"]',
+							'.img-container',
+							'label[for]',
+							'textarea',
+							'select',
+							'button',
+							'.link',
+							'.tag',
+						]}
+					/>
+				</div>
+				{children} <Footer />
 			</body>
 		</html>
 	);

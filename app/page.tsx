@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function Home() {
 	return (
-		<>
+		<div className='home'>
 			<section className='hero'>
 				<div className='max-width'>
 					<nav>
@@ -97,12 +97,15 @@ export default function Home() {
 				</div>
 			</section>
 			<section className='get-in-touch' id='contact'>
-				<h2>Get in touch</h2>
-				<p>Want to discuss a project, have a job offer or say Hello? </p>
-				<p>
-					<span>Drop me a message</span>, I’d love to get back to you :)
-				</p>
+				<div className='max-width'>
+					<h2>Get in touch</h2>
+					<p>Want to discuss a project, have a job offer or say Hello? </p>
+					<p>
+						<span>Drop me a message</span> &nbsp;&nbsp;&nbsp; I’d love to get
+						back to you :)
+					</p>
+				</div>
 			</section>
-		</>
+		</div>
 	);
 }

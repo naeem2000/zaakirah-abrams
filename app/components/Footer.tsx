@@ -36,6 +36,18 @@ export default function Footer() {
 						</div>
 					</div>
 				</div>
+				<div className='copyright'>
+					<p>
+						© Created by{' '}
+						<a
+							href='https://naeemdev.netlify.app/'
+							target='_blank'
+							rel='noopener noreferrer'
+						>
+							Naeem Carr
+						</a>
+					</p>
+				</div>
 			</div>
 		</footer>
 	);

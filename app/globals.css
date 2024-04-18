@@ -24,6 +24,7 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  cursor: none;
 }
 
 a {
@@ -41,30 +42,166 @@ a {
 }
 
 /* HERO START */
-section.hero {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  background: linear-gradient(113.04deg, #CF81FF 3.08%, #31B5FF 107.42%);
-  padding-left: 117px;
-  height: 100vh;
+.hero {
+  background: url(/hero-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-section.hero h1 {
-  font-family: "Tiro Tamil", serif;
-  font-size: 50px;
-  font-weight: 400;
-  line-height: 100px;
+.hero nav {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: 100%;
+  height: 60px;
+}
+
+.hero nav a {
+  margin-right: 72px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 33px;
   letter-spacing: 0.01em;
-  text-align: left;
-  max-width: 1205px;
+  text-align: center;
+  color: var(--white);
+}
+
+.hero nav a:last-child {
+  margin-right: 0;
+  background: var(--yellow);
+  border-radius: 15px;
+  padding: 3px 12px;
+}
+
+.hero .header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  height: 80vh;
+}
+
+.hero .header>div {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.hero .header>div p {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-weight: 900;
+  line-height: 33px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: var(--white);
+}
+
+.hero .header>div h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 128px;
+  font-weight: 900;
+  line-height: 128px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  background: -webkit-linear-gradient(90deg, rgba(64, 82, 228, 0.3) 0%, #4052E4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero .header>div .speech-bubble {
+  position: relative;
+  background: var(--yellow);
+  border-radius: 10px;
+  padding: 10px;
+  width: 200px;
+  right: 230px;
+}
+
+.hero .header>div .speech-bubble::after {
+  content: '';
+  position: absolute;
+  top: -20px;
+  left: 65%;
+  transform: translateX(-50%) rotate(180deg);
+  border-width: 10px;
+  border-style: solid;
+  border-color: var(--yellow) transparent transparent transparent;
+}
+
+.hero .header>div .speech-bubble p {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 33px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: var(--white);
 }
 
 /* HERO END */
 
+/* ABOUT START */
+
+.hero .about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+
+.hero .about .about-right {
+  margin-left: 116px;
+}
+
+.hero .about .about-right>div {
+  display: flex;
+  align-items: center;
+}
+
+.hero .about .about-right>div h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 33px;
+  letter-spacing: 0.01em;
+  color: var(--white);
+}
+
+.hero .about .about-right p {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  max-width: 517px;
+  color: var(--white);
+}
+
+.hero .about .about-right p span {
+  padding: 5px;
+  border-radius: 5px;
+  background: #4052E4;
+}
+
+.hero .about .about-right p:nth-child(4) span {
+  background: var(--yellow);
+}
+
+/* ABOUT END */
+
 /* GALLERY START */
-section.gallery .top-gal,
-section.gallery .bot-gal {
+.gallery {
+  padding: 0;
+}
+
+.gallery .top-gal,
+.gallery .bot-gal {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
@@ -101,6 +238,10 @@ section.gallery .bot-gal {
   letter-spacing: 0.01em;
 }
 
+.img-container img {
+  object-fit: cover;
+}
+
 .img-container .overlay p:last-child {
   font-family: "Poppins", sans-serif;
   font-size: 20px;
@@ -116,7 +257,7 @@ section.gallery .bot-gal {
 /* GALLERY END */
 
 /* GET IN TOUCH START */
-section.get-in-touch {
+.get-in-touch {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -126,7 +267,7 @@ section.get-in-touch {
   padding-bottom: 135px;
 }
 
-section.get-in-touch h2 {
+.get-in-touch h2 {
   font-family: "Tiro Tamil", serif;
   font-size: 96px;
   font-weight: 400;
@@ -136,7 +277,7 @@ section.get-in-touch h2 {
   margin-bottom: 10px;
 }
 
-section.get-in-touch p {
+.get-in-touch p {
   font-family: "Tiro Tamil", serif;
   font-size: 32px;
   font-weight: 400;
@@ -145,7 +286,7 @@ section.get-in-touch p {
   text-align: center;
 }
 
-section.get-in-touch p span {
+.get-in-touch p span {
   text-decoration: underline;
 }
 
@@ -247,12 +388,9 @@ footer .footer-body .footer-right a {
 }
 
 @media screen and (max-width: 850px) {
-  section.hero {
-    padding: 270px 117px;
-  }
 
-  section.gallery .top-gal,
-  section.gallery .bot-gal {
+  .gallery .top-gal,
+  .gallery .bot-gal {
     grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
   }
 
@@ -267,30 +405,20 @@ footer .footer-body .footer-right a {
     padding-right: 20px;
   }
 
-  section.hero {
-    padding: 50px 20px;
-  }
-
-  section.hero h1 {
-    font-size: 35px;
-    line-height: 70px;
-    letter-spacing: 0.01em;
-  }
-
   .img-container {
     height: 300px;
   }
 
-  section.get-in-touch {
+  .get-in-touch {
     padding: 50px 20px;
   }
 
-  section.get-in-touch h2 {
+  .get-in-touch h2 {
     font-size: 40px;
     line-height: 80px;
   }
 
-  section.get-in-touch p {
+  .get-in-touch p {
     font-size: 30px;
     line-height: 50px;
     letter-spacing: 0.01em;

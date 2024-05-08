@@ -1,0 +1,67 @@
+.anigram {
+    position: relative;
+}
+
+.anigram .anigram-head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 110px 0px 36px;
+}
+
+.anigram .anigram-head h1 {
+    font-family: 'Cordon', sans-serif;
+    font-size: 50px;
+    color: var(--dark-brown);
+    margin-bottom: 40px;
+}
+
+.anigram .anigram-head p {
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -0.30000001192092896px;
+    max-width: 655px;
+}
+
+.anigram .anigram-body {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+.anigram .anigram-body img {
+    width: 100%;
+    height: auto;
+}
+
+.anigram .anigram-body img:nth-child(1) {
+    margin-top: 89px;
+    max-width: 443.15px;
+}
+
+.anigram .anigram-body img:nth-child(2) {
+    max-width: 540px;
+}
+
+@media screen and (max-width: 550px) {
+    .anigram .anigram-head {
+        margin: 80px 0px 36px;
+    }
+
+    .anigram .anigram-head h1 {
+        font-size: 35px;
+    }
+
+    .anigram .anigram-body {
+        flex-direction: column;
+        margin-bottom: 80px;
+    }
+
+    .anigram .anigram-body img:nth-child(1) {
+        margin-top: 0px;
+    }
+}

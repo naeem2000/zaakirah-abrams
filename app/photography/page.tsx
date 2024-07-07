@@ -1,3 +1,4 @@
+import Nav from '../components/Nav/Nav';
 import Image from 'next/image';
 import './photography.css';
 import React from 'react';
@@ -6,6 +7,7 @@ export default function page() {
 	return (
 		<section className='photo'>
 			<div className='photo-head'>
+				<Nav />
 				<Image src={'/camera-lens.png'} width={228} height={228} alt='lens' />
 				<h1>Explore My Hobby</h1>
 			</div>

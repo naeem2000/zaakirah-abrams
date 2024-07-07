@@ -7,7 +7,7 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 123px 127px 117px 0px;
+    padding: 0px 127px 117px 0px;
 }
 
 .bowl-of-care .bowl-head .max-width {
@@ -18,6 +18,7 @@
 
 .bowl-of-care .bowl-head div h1 {
     font-size: 40px;
+    padding-top: 123px;
     color: var(--brown);
     font-weight: 800;
     line-height: 33px;

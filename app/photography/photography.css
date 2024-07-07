@@ -11,11 +11,12 @@
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 13px;
-    padding: 135px 0px 200px;
+    padding: 0px 135px 200px;
 }
 
 .photo .photo-head img {
     margin-bottom: 120px;
+    margin-top: 130px;
 }
 
 .photo .photo-head h1 {

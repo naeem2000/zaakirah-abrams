@@ -1,20 +1,26 @@
 'use client';
 
+import Typewriter from 'typewriter-effect';
 import Image from 'next/image';
+import Nav from './components/Nav/Nav';
 
 export default function Home() {
 	return (
 		<div className='home'>
 			<section className='hero'>
 				<div className='max-width'>
-					<nav>
-						<a href='#about'>About Me</a>
-						<a href='#work'>Work</a>
-						<a href='#contact'>Get In Touch</a>
-					</nav>
+					<Nav />
 					<div className='header'>
 						<div>
-							<p>2024</p>
+							<Typewriter
+								options={{
+									strings: ['2024', 'PHOTOGRAPHY', 'MOBILE', 'WEBSITE'],
+									deleteSpeed: 80,
+									autoStart: true,
+									loop: true,
+								}}
+							/>
+
 							<h1>UI | UX DESIGN</h1>
 							<div className='speech-bubble'>
 								<p>Zaakirah Abrams</p>

@@ -1,3 +1,4 @@
+import Nav from '../components/Nav/Nav';
 import Image from 'next/image';
 import React from 'react';
 import './dev-help.css';
@@ -6,6 +7,7 @@ export default function page() {
 	return (
 		<section className='dev-help'>
 			<div className='help-head'>
+				<Nav />
 				<div className='max-width'>
 					<div>
 						<h1>devHelp</h1>

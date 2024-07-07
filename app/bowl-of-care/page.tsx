@@ -1,3 +1,4 @@
+import Nav from '../components/Nav/Nav';
 import Image from 'next/image';
 import './bowl-of-care.css';
 import React from 'react';
@@ -6,6 +7,7 @@ export default function page() {
 	return (
 		<section className='bowl-of-care'>
 			<div className='bowl-head'>
+				<Nav />
 				<div className='max-width'>
 					<div>
 						<h1>Bowl Of Care</h1>

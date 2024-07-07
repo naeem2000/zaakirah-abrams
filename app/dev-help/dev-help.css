@@ -7,7 +7,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    padding: 209px 114px 437px 0px;
+    padding: 0px 114px 437px 0px;
 }
 
 .dev-help .help-head .max-width {
@@ -19,6 +19,7 @@
 
 .dev-help .help-head .max-width h1 {
     color: var(--light-peach);
+    padding-top: 209px;
     font-size: 40px;
     font-weight: 900;
     line-height: 33px;

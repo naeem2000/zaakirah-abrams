@@ -1,0 +1,24 @@
+nav {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+}
+
+nav a {
+    margin-right: 72px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: var(--white);
+}
+
+nav a:last-child {
+    margin-right: 0;
+    background: var(--yellow);
+    border-radius: 15px;
+    padding: 3px 12px;
+}

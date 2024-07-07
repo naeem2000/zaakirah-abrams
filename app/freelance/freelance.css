@@ -1,0 +1,36 @@
+.freelance {
+    background: url(/footer-bg.png);
+    font-family: "Poppins", sans-serif;
+}
+
+.freelance .freelance-head {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.freelance .max-width .freelance-header {
+    padding-top: 140px;
+    display: flex;
+}
+
+.freelance .max-width .freelance-head h1 {
+    max-width: 480px;
+    color: var(--white);
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 40px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+
+.freelance .max-width .freelance-head p {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22.5px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    max-width: 486px;
+    color: var(--white);
+    margin-top: 10px;
+}

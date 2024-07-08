@@ -1,6 +1,9 @@
 .freelance {
     background: url(/footer-bg.png);
     font-family: "Poppins", sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .freelance .freelance-head {
@@ -14,7 +17,7 @@
     display: flex;
 }
 
-.freelance .max-width .freelance-head h1 {
+.freelance .max-width .freelance-head h2 {
     max-width: 480px;
     color: var(--white);
     font-size: 45px;
@@ -33,4 +36,96 @@
     max-width: 486px;
     color: var(--white);
     margin-top: 10px;
+}
+
+.freelance .booka {
+    margin-top: 70px;
+}
+
+.freelance .booka .booka-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.freelance .booka .booka-body {
+    margin-top: 50px;
+}
+
+.freelance .booka .booka-body h2 {
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 45px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: var(--booka-blue);
+}
+
+.freelance .booka .booka-body .booka-text {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.freelance .booka .booka-body .booka-text>div:first-child {
+    margin-right: 250px;
+}
+
+.freelance .booka .booka-body .booka-text>div {
+    margin-top: 25px;
+}
+
+.freelance .booka .booka-body>div p {
+    max-width: 550px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22.5px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: var(--white);
+}
+
+.freelance .booka .booka-body>div p:last-child {
+    margin-top: 25px;
+}
+
+.freelance .booka .booka-body a {
+    color: var(--white);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    background: var(--booka-blue);
+    padding: 15px 12px;
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 1024px) {
+    .freelance .booka .booka-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .freelance .booka .booka-body .booka-text>div:first-child {
+        margin-right: 60px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .freelance .max-width .freelance-header {
+        padding-top: 50px;
+    }
+
+    .freelance .max-width .freelance-head h2 {
+        font-size: 35px;
+        line-height: 35px;
+    }
+
+    .freelance .booka .booka-body .booka-text {
+        flex-direction: column;
+    }
+
+    .freelance .booka .booka-body .booka-text>div:first-child {
+        margin: 0;
+    }
 }

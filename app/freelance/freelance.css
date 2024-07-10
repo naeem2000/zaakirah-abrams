@@ -129,3 +129,96 @@
         margin: 0;
     }
 }
+
+.freelance .forecast-hub {
+    margin-top: 115px;
+}
+
+.freelance .forecast-hub .forecast-body {
+    display: flex;
+    align-items: center;
+}
+
+.freelance .forecast-hub .forecast-body>div {
+    margin-left: 155px;
+}
+
+.freelance .forecast-hub .forecast-body>div h2 {
+    color: var(--yellow);
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 45px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+
+.freelance .forecast-hub .forecast-body>div p {
+    color: var(--white);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22.5px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    max-width: 585px;
+}
+
+.freelance .forecast-hub .forecast-body>div p:nth-child:first-child {
+    margin-bottom: 30px;
+}
+
+.freelance .forecast-hub .forecast-body>div ul li {
+    color: var(--white);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.freelance .forecast-hub .forecast-body>div a {
+    color: var(--white);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    background: var(--yellow);
+    padding: 15px 12px;
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 1024px) {
+    .freelance .forecast-hub .forecast-body>img {
+        width: 100%;
+        height: auto;
+    }
+
+    .freelance .forecast-hub .forecast-body {
+        flex-direction: column;
+    }
+
+    .freelance .forecast-hub .forecast-body>div {
+        margin-left: 0;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .freelance .max-width .freelance-header {
+        padding-top: 50px;
+    }
+
+    .freelance .max-width .freelance-head h2 {
+        font-size: 35px;
+        line-height: 35px;
+    }
+
+    .freelance .booka .booka-body .booka-text {
+        flex-direction: column;
+    }
+
+    .freelance .booka .booka-body .booka-text>div:first-child {
+        margin: 0;
+    }
+}

@@ -2,6 +2,7 @@ import AnimatedCursor from 'react-animated-cursor';
 import Footer from './components/Footer';
 import type { Metadata } from 'next';
 import './globals.css';
+import Nav from './components/Nav/Nav';
 
 export const metadata: Metadata = {
 	title: 'Zaakirah Abrams',

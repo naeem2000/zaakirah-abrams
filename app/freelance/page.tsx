@@ -24,7 +24,7 @@ export default function page() {
 				</div>
 				<div className='booka'>
 					<div className='booka-image'>
-						<Image src='/booka.png' alt='smiley' width={1206} height={809} />
+						<Image src='/booka.png' alt='booka' width={1206} height={809} />
 					</div>
 					<div className='booka-body'>
 						<h2>Booka</h2>
@@ -56,7 +56,49 @@ export default function page() {
 						<Link href={'/'}>Check Out Design</Link>
 					</div>
 				</div>
-				<div className='forecast-hub'>forecast</div>
+				<div className='forecast-hub'>
+					<div className='forecast-body'>
+						<Image
+							src='/forecast-hub.png'
+							alt='forecast-hub'
+							width={649}
+							height={652}
+						/>
+						<div>
+							<h2>ForecastHub</h2>
+							<br />
+							<p>
+								This design was created for a developer to complete an important
+								task. I was asked to create something I liked, and he would
+								design it according to my preferences, incorporating specific
+								elements into the design.
+							</p>
+							<br />
+							<p>Elements that needed to be included were:</p>
+							<br />
+							<ul>
+								<li> A search bar for users to search their city</li>
+								<li>
+									The city, day, date, and current time of the search displayed
+								</li>
+								<li>
+									The temperature displayed along with a detailed weather
+									description
+								</li>
+								<li>
+									A weekly forecast displayed, with an option to click on it to
+									view the hourly weather forecast
+								</li>
+							</ul>
+							<br />
+							<p style={{ marginBottom: '50px' }}>
+								You can now view the completed Web App by clicking the link
+								below
+							</p>
+							<Link href={'/'}>Check Out Design</Link>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	);

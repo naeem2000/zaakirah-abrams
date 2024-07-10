@@ -3,6 +3,7 @@
 import Typewriter from 'typewriter-effect';
 import Image from 'next/image';
 import Nav from './components/Nav/Nav';
+import Link from 'next/link';
 
 export default function Home() {
 	return (
@@ -63,43 +64,53 @@ export default function Home() {
 			</section>
 			<section className='gallery max-width' id='work'>
 				<div className='top-gal'>
-					<div className='img-container'>
-						<Image src='/1.png' alt='1' fill />
-						<div className='overlay'>
-							<p>Anigram</p>
-							<p>Social Media &nbsp; | &nbsp; UI/ UX Design</p>
+					<Link href={'/dev-help'}>
+						<div className='img-container'>
+							<Image src='/devhelp-tile.png' alt='DevHelp' fill />
+							<div className='overlay'>
+								<p>DevHelp</p>
+								<p>DevHelp &nbsp; | &nbsp; UI/ UX Design</p>
+							</div>
 						</div>
-					</div>
-					<div className='img-container'>
-						<Image src='/2.png' alt='2' fill />
-						<div className='overlay'>
-							<p>Anigram</p>
-							<p>Social Media &nbsp; | &nbsp; UI/ UX Design</p>
+					</Link>
+					<Link href={'/bowl-of-care'}>
+						<div className='img-container'>
+							<Image src='/bowlofcare-tile.png' alt='Bowl Of Care' fill />
+							<div className='overlay'>
+								<p>Bowl Of Care</p>
+								<p>Food Delivery App &nbsp; | &nbsp; UI/ UX Design</p>
+							</div>
 						</div>
-					</div>
-					<div className='img-container'>
-						<Image src='/3.png' alt='3' fill />
-						<div className='overlay'>
-							<p>Anigram</p>
-							<p>Social Media &nbsp; | &nbsp; UI/ UX Design</p>
+					</Link>
+					<Link href={'/freelance'}>
+						<div className='img-container'>
+							<Image src='/freelance-tile.png' alt='Freelance Work' fill />
+							<div className='overlay'>
+								<p>Freelance Work</p>
+								<p>UI/UX Designs</p>
+							</div>
 						</div>
-					</div>
+					</Link>
 				</div>
 				<div className='bot-gal'>
-					<div className='img-container'>
-						<Image src='/4.png' alt='4' fill />
-						<div className='overlay'>
-							<p>Anigram</p>
-							<p>Social Media &nbsp; | &nbsp; UI/ UX Design</p>
+					<Link href={'/photography'}>
+						<div className='img-container'>
+							<Image src='/photography-tile.png' alt='Photography ' fill />
+							<div className='overlay'>
+								<p>Photography </p>
+								<p>Social Media &nbsp; | &nbsp; Social Media Manager</p>
+							</div>
 						</div>
-					</div>
-					<div className='img-container'>
-						<Image src='/5.png' alt='5' fill />
-						<div className='overlay'>
-							<p>Anigram</p>
-							<p>Social Media &nbsp; | &nbsp; UI/ UX Design</p>
+					</Link>
+					<Link href={'/anigram'}>
+						<div className='img-container'>
+							<Image src='/anigram-tile.png' alt='5' fill />
+							<div className='overlay'>
+								<p>Anigram</p>
+								<p>Social Media &nbsp; | &nbsp; UI/ UX Design</p>
+							</div>
 						</div>
-					</div>
+					</Link>
 				</div>
 			</section>
 			<section className='get-in-touch' id='contact'>

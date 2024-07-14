@@ -44,8 +44,14 @@ a {
   color: unset;
 }
 
+body,
+div,
+section {
+  position: relative;
+}
+
 .cursor {
-  z-index: 1010 !important;
+  z-index: 20 !important;
 }
 
 .max-width {
@@ -61,6 +67,19 @@ a {
 nav,
 footer {
   font-family: "Poppins", sans-serif;
+  animation: fadeInAnimation ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 /* HERO START */
@@ -465,6 +484,14 @@ footer .footer-body .copyright p a {
 
 @media screen and (max-width: 550px) {
 
+  .hero .header>div {
+    align-items: center;
+  }
+
+  .hero .header>div .Typewriter {
+    margin-bottom: 10px;
+  }
+
   .hero nav {
     justify-content: space-between;
   }
@@ -483,13 +510,10 @@ footer .footer-body .copyright p a {
   }
 
   .hero .header>div .speech-bubble {
+    right: 0px;
+    top: 20px;
     width: 165px;
     padding: 5px;
-  }
-
-  .hero .header>div .speech-bubble {
-    right: 70px;
-    top: 20px;
   }
 
   .hero .about>div img {

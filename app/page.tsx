@@ -73,21 +73,21 @@ export default function Home() {
 							</div>
 						</div>
 					</Link>
+					<Link href={'/anigram'}>
+						<div className='img-container'>
+							<Image src='/anigram-tile.png' alt='5' fill />
+							<div className='overlay'>
+								<p>Anigram</p>
+								<p>Social Media &nbsp; | &nbsp; UI/ UX Design</p>
+							</div>
+						</div>
+					</Link>
 					<Link href={'/bowl-of-care'}>
 						<div className='img-container'>
 							<Image src='/bowlofcare-tile.png' alt='Bowl Of Care' fill />
 							<div className='overlay'>
 								<p>Bowl Of Care</p>
 								<p>Food Delivery App &nbsp; | &nbsp; UI/ UX Design</p>
-							</div>
-						</div>
-					</Link>
-					<Link href={'/freelance'}>
-						<div className='img-container'>
-							<Image src='/freelance-tile.png' alt='Freelance Work' fill />
-							<div className='overlay'>
-								<p>Freelance Work</p>
-								<p>UI/UX Designs</p>
 							</div>
 						</div>
 					</Link>
@@ -102,12 +102,12 @@ export default function Home() {
 							</div>
 						</div>
 					</Link>
-					<Link href={'/anigram'}>
+					<Link href={'/freelance'}>
 						<div className='img-container'>
-							<Image src='/anigram-tile.png' alt='5' fill />
+							<Image src='/freelance-tile.png' alt='Freelance Work' fill />
 							<div className='overlay'>
-								<p>Anigram</p>
-								<p>Social Media &nbsp; | &nbsp; UI/ UX Design</p>
+								<p>Freelance Work</p>
+								<p>UI/UX Designs</p>
 							</div>
 						</div>
 					</Link>

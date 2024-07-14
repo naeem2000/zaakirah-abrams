@@ -44,11 +44,16 @@ a {
   color: unset;
 }
 
+body {
+  overflow-y: scroll;
+}
+
 body,
 div,
 section {
   position: relative;
 }
+
 
 .cursor {
   z-index: 20 !important;

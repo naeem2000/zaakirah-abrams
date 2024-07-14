@@ -25,14 +25,6 @@ export default function Nav() {
 		}
 	}, [openNav]);
 
-	if (typeof window !== 'undefined') {
-		if (openNav === true) {
-			document.body.style.overflowY = ' scroll';
-		} else {
-			document.body.style.overflowY = ' hidden';
-		}
-	}
-
 	if (path !== '/') {
 		return (
 			<Link className='back-button' href={'/'}>

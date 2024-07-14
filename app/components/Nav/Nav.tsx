@@ -16,10 +16,8 @@ export default function Nav() {
 			if (navMenu) {
 				if (navMenu?.style.transform === 'translateX(0px)') {
 					navMenu.style.transform = 'translateX(-100%)';
-					document.body.style.overflowY = ' scroll';
 				} else {
 					navMenu.style.transform = 'translateX(0px)';
-					document.body.style.overflowY = ' hidden';
 				}
 			}
 		}

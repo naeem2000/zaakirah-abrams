@@ -14,10 +14,12 @@ export default function Nav() {
 		if (typeof window !== 'undefined') {
 			const navMenu = document.getElementById('mobile-nav');
 			if (navMenu) {
-				if (navMenu?.style.transform === 'translateX(0px)') {
+				if (openNav) {
 					navMenu.style.transform = 'translateX(-100%)';
+					document.body.style.overflowY = 'scroll';
 				} else {
 					navMenu.style.transform = 'translateX(0px)';
+					document.body.style.overflowY = 'hidden';
 				}
 			}
 		}

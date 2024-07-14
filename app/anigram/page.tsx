@@ -1,10 +1,12 @@
 import Image from 'next/image';
 import React from 'react';
 import './anigram.css';
+import Nav from '../components/Nav/Nav';
 
 export default function page() {
 	return (
 		<section className='anigram'>
+			<Nav />
 			<div className='max-width'>
 				<div className='anigram-head'>
 					<h1>WHOOPS... NOTHING MORE TO SEE HERE</h1>

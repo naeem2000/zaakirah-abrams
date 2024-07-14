@@ -1,5 +1,18 @@
 .photo {
     font-family: "Quicksand", sans-serif;
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 .photo .photo-head {
@@ -10,7 +23,6 @@
     background: url('/photo-head.png');
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 13px;
     padding: 0px 135px 200px;
 }
 
@@ -75,19 +87,28 @@
 }
 
 .photo .gallery div:first-child {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
-    place-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.photo .gallery div:first-child img {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
 }
 
 .photo .gallery div:not(:first-child) {
-    display: grid;
-    margin-top: 10px;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px;
-    place-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     margin-bottom: 10px;
+}
+
+.photo .gallery div:not(:first-child) img {
+    width: 100%;
+    height: auto;
+    max-width: 370px;
 }
 
 .photo .mid-gal {
@@ -172,11 +193,17 @@
     padding: 12px;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1366px) {
     .photo .gallery div:first-child {
-        grid-template-columns: repeat(1, 1fr);
-        place-items: center;
+        justify-content: center;
     }
+
+    .photo .gallery div:not(:first-child) {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1280px) {
 
     .photo .gallery div:first-child img {
         width: 100%;

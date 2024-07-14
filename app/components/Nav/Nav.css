@@ -1,4 +1,4 @@
-.nav {
+nav {
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -6,7 +6,7 @@
     height: 60px;
 }
 
-.nav a {
+nav a {
     margin-right: 72px;
     font-size: 15px;
     font-weight: 500;
@@ -16,95 +16,62 @@
     color: var(--white);
 }
 
-.nav a:last-child {
+nav a:last-child {
     margin-right: 0;
     background: var(--yellow);
     border-radius: 15px;
     padding: 3px 12px;
 }
 
-/* Position and sizing of burger button */
-.bm-burger-button {
+.mobile-nav,
+.nav-button {
+    display: none;
+}
+
+.back-button {
     position: fixed;
-    width: 26px;
-    height: 20px;
-    right: 36px;
-    top: 36px;
-    z-index: 1000 !important;
-}
-
-/* Color/shape of burger icon bars */
-.bm-burger-bars {
-    background: #373a47;
-}
-
-/* Color/shape of burger icon bars on hover*/
-.bm-burger-bars-hover {
-    background: #a90000;
-}
-
-/* Position and sizing of clickable cross button */
-.bm-cross-button {
-    height: 24px;
-    width: 24px;
-}
-
-/* Color/shape of close button cross */
-.bm-cross {
-    background: #bdc3c7;
-}
-
-/*
-Sidebar wrapper styles
-Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
-*/
-.bm-menu-wrap {
-    position: fixed;
-    height: 100%;
-    left: 0 !important;
-    z-index: 1000 !important;
-}
-
-/* General sidebar styles */
-.bm-menu {
-    background: #373a47;
-    padding: 2.5em 1.5em 0;
-    font-size: 1.15em;
-    left: 0 !important;
-}
-
-/* Morph shape necessary with bubble or elastic */
-.bm-morph-shape {
-    fill: #373a47;
-}
-
-/* Wrapper for item list */
-.bm-item-list {
-    color: #b8b7ad;
-    padding: 0.8em;
-}
-
-/* Individual item */
-.bm-item {
-    display: inline-block;
-}
-
-/* Styling of overlay */
-.bm-overlay {
-    background: rgba(0, 0, 0, 0.3);
-}
-
-.naver {
-    display: none !important;
+    left: 10px;
+    top: 10px;
+    margin-right: 0;
+    background: var(--yellow);
+    border-radius: 15px;
+    padding: 5px 15px;
+    color: var(--white);
+    z-index: 2;
 }
 
 @media screen and (max-width: 720px) {
-    .naver {
-        display: block;
-        top: 0 !important;
+    nav {
+        display: none;
     }
 
-    .nav {
-        display: none;
+    .mobile-nav {
+        left: 0;
+        padding: 50px 0px 0px 30px;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        z-index: 2;
+        transform: translateX(-100%);
+        transition: all ease .5s;
+        background: #1a2a388a;
+        height: 100%;
+        width: 60%;
+        color: var(--white);
+        mix-blend-mode: difference;
+        font-size: 23px;
+    }
+
+    .mobile-nav a {
+        margin-bottom: 30px;
+    }
+
+    .nav-button {
+        display: block;
+        position: fixed;
+        right: 10px;
+        top: 10px;
+        z-index: 2;
+        mix-blend-mode: difference;
     }
 }

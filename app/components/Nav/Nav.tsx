@@ -11,14 +11,14 @@ export default function Nav() {
 	const path = usePathname();
 
 	useEffect(() => {
-		if (typeof window !== 'undefined') {
-			const navMenu = document.getElementById('mobile-nav');
-			if (navMenu) {
-				if (openNav) {
-					navMenu.style.transform = 'translateX(-100%)';
-				} else {
-					navMenu.style.transform = 'translateX(0px)';
-				}
+		const mobileNav = document.getElementById('mobile-nav');
+		if (mobileNav) {
+			if (openNav) {
+				mobileNav.classList.add('translated');
+				document.body.style.overflowY = 'hidden';
+			} else {
+				mobileNav.classList.remove('translated');
+				document.body.style.overflowY = 'scroll';
 			}
 		}
 	}, [openNav]);
@@ -34,7 +34,11 @@ export default function Nav() {
 	return (
 		<>
 			<div className='nav-button'>
-				<Hamburger toggled={openNav} toggle={setOpenNav} color='white' />
+				<Hamburger
+					onToggle={() => setOpenNav(!openNav)}
+					toggled={openNav}
+					color='white'
+				/>
 			</div>
 			<nav>
 				<a href='#about'>About Me</a>

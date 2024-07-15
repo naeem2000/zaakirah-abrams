@@ -30,14 +30,15 @@ nav a:last-child {
 
 .back-button {
     position: fixed;
-    left: 10px;
-    top: 10px;
+    left: 20px;
+    top: 20px;
     margin-right: 0;
     background: var(--yellow);
     border-radius: 15px;
     padding: 5px 15px;
     color: var(--white);
     z-index: 2;
+    font-size: 15px;
 }
 
 @media screen and (max-width: 720px) {
@@ -51,15 +52,18 @@ nav a:last-child {
         display: flex;
         flex-direction: column;
         position: fixed;
-        z-index: 2;
+        z-index: 5;
         transform: translateX(-100%);
         transition: all ease .5s;
-        background: #1a2a388a;
+        background: rgba(0, 0, 0, 0.829);
         height: 100%;
         width: 60%;
         color: var(--white);
-        mix-blend-mode: difference;
-        font-size: 23px;
+        font-size: 20px;
+    }
+
+    .translated {
+        transform: translateX(0%) !important;
     }
 
     .mobile-nav a {
@@ -69,8 +73,8 @@ nav a:last-child {
     .nav-button {
         display: block;
         position: fixed;
-        right: 10px;
-        top: 10px;
+        right: 20px;
+        top: 20px;
         z-index: 2;
         mix-blend-mode: difference;
     }

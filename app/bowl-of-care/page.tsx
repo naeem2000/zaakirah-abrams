@@ -12,10 +12,10 @@ export default function page() {
 					<div>
 						<h1>Bowl Of Care</h1>
 						<p>
-							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem
-							ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-							suscipit mollitia commodi, voluptas eligendi praesentium vel hic
-							unde inventore iure.
+							This food delivery app was created as a team project to support
+							individuals who are food insecure and rely on food stamps.
+							<br />
+							You can now view the full design below.
 						</p>
 						<p>Tools Used |</p>
 						<Image alt='adobe' width={60} height={55} src={'/adobeai.png'} />

@@ -28,15 +28,12 @@ export default function Footer() {
 								LinkedIn
 							</a>
 							<a href='http://' target='_blank' rel='noopener noreferrer'>
-								Instagram
-							</a>
-							<a href='http://' target='_blank' rel='noopener noreferrer'>
 								Dribble
 							</a>
 						</div>
 					</div>
 				</div>
-				<div className='copyright'>
+				{/* <div className='copyright'>
 					<p>
 						© Created by{' '}
 						<a
@@ -47,7 +44,7 @@ export default function Footer() {
 							Naeem Carr
 						</a>
 					</p>
-				</div>
+				</div> */}
 			</div>
 		</footer>
 	);

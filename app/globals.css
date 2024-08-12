@@ -334,7 +334,7 @@ footer {
   background: url(/footer-bg.png);
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 60px 0px 20px;
+  padding: 60px 0px 60px;
 }
 
 footer .footer-body .max-width {
@@ -490,6 +490,10 @@ footer .footer-body .copyright p a {
 }
 
 @media screen and (max-width: 550px) {
+
+  footer {
+    padding: 60px 0px 0px;
+  }
 
   .hero .header>div {
     align-items: center;

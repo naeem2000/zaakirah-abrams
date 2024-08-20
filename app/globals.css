@@ -89,6 +89,37 @@ footer {
   }
 }
 
+.loader {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9;
+  background: #ffffff81;
+  padding: 30px;
+  transition: all ease 1s;
+}
+
+.loader .load-element {
+  max-width: 500px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loader .load-element svg {
+  border-radius: 100px;
+}
+
+.slide {
+  transform: translateX(100%) !important;
+}
+
 /* HERO START */
 .hero {
   background: url(/hero-bg.png);
@@ -572,25 +603,27 @@ footer .footer-body .copyright p a {
   }
 
   footer .footer-body .footer-left p {
-    font-size: 18px;
+    font-size: 15px;
   }
 
   footer .footer-body .footer-left a {
-    font-size: 18px;
-    height: 45px;
-    max-width: 160px;
+    font-size: 15px;
+    height: 40px;
+    max-width: 140px;
   }
 
   footer .footer-body .footer-right p {
-    font-size: 20px;
+    font-size: 18px;
+    margin-bottom: 10px;
   }
 
   footer .footer-body .footer-right a {
-    font-size: 18px;
+    font-size: 14px;
+    margin-bottom: 5px;
   }
 
   footer .footer-body .footer-right {
-    margin-top: 50px;
+    margin-top: 30px;
     justify-content: space-between;
   }
 

@@ -1,13 +1,32 @@
 'use client';
 
 import Typewriter from 'typewriter-effect';
-import Image from 'next/image';
+import Loader from './components/Loader';
 import Nav from './components/Nav/Nav';
+import Image from 'next/image';
 import Link from 'next/link';
+import { useEffect } from 'react';
 
 export default function Home() {
+	useEffect(() => {
+		document.body.style.overflowY = 'hidden';
+		if (typeof window !== 'undefined') {
+			const loader = document.getElementById('loader');
+			if (loader) {
+				setTimeout(() => {
+					loader.classList.add('slide');
+					document.body.style.overflowY = 'scroll';
+				}, 2000);
+			}
+		}
+	});
 	return (
 		<div className='home'>
+			<div id='loader' className='loader'>
+				<div className='load-element'>
+					<Loader />
+				</div>
+			</div>
 			<section className='hero'>
 				<div className='max-width'>
 					<Nav />

@@ -29,6 +29,8 @@
 .photo .photo-head img {
     margin-bottom: 120px;
     margin-top: 130px;
+    max-width: 228px;
+    height: auto;
 }
 
 .photo .photo-head h1 {
@@ -45,7 +47,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    margin-bottom: 13px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -88,8 +89,10 @@
 
 .photo .gallery div:first-child {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 10px;
 }
 
 .photo .gallery div:first-child img {
@@ -100,9 +103,9 @@
 
 .photo .gallery div:not(:first-child) {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
-    margin-bottom: 10px;
+    gap: 10px;
 }
 
 .photo .gallery div:not(:first-child) img {
@@ -140,11 +143,10 @@
 }
 
 .photo .mid-gal-photo {
-    display: grid;
-    margin-top: 10px;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px;
-    place-content: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
     margin-bottom: 10px;
 }
 
@@ -175,11 +177,12 @@
 }
 
 .photo .bot-row {
-    display: grid;
     margin-top: 40px;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
-    place-content: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 10px;
 }
 
 .photo .bot-gal a {
@@ -195,7 +198,7 @@
 
 @media screen and (max-width: 1366px) {
     .photo .gallery div:first-child {
-        justify-content: center;
+        justify-content: flex-start;
     }
 
     .photo .gallery div:not(:first-child) {
@@ -251,8 +254,7 @@
     }
 
     .photo .photo-head img {
-        width: 40%;
-        height: auto;
+        width: 130px;
         margin-bottom: 35px;
     }
 
@@ -296,6 +298,8 @@
     .photo .bot-gal {
         padding-left: 20px;
         padding-right: 20px;
+        padding-top: 30px;
+        padding-bottom: 50px;
     }
 
     .photo .bot-gal h2 {
@@ -308,5 +312,6 @@
 
     .photo .bot-gal a {
         font-size: 13px;
+        margin-top: 20px;
     }
 }
